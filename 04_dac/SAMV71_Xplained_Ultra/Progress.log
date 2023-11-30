@@ -1,0 +1,10 @@
+CONVERTING	G:\Proyectos\ITESO\Base\SAMV71x\app\04_dac_v2\SAMV71_Xplained_Ultra\Debug\Scheduler.elf
+LOADING	G:\Proyectos\ITESO\Base\SAMV71x\app\04_dac_v2\SAMV71_Xplained_Ultra\Debug\Scheduler.elf
+ANALYZING
+ANALYZING
+EMULATION	POD: Cortex (JTAG,SWD)   CPU: Cortex-M7
+DEBUG	PROTOCOL: SWD; RESET: SoC
+LOADING 	95748 bytes
+UMI INFO	Loading UMI monitor...
+PROGRAMMING	Atmel ATSAMV7 (2048 kB) (3 sectors)
+UMI INFO	Unloading UMI monitor...
