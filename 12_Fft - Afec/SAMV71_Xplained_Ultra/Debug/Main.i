@@ -28072,9 +28072,10 @@ void I2C_Init(void);
 void I2S_Init(void);
 
 void I2S_AudioRecord();
+void uinttofloat(float * floatbuffer, uint32_t * sscdata);
 
 pfun pFFT = &fft_process;
-# 81 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\app\\12_Fft - Afec\\src\\Asw\\Main.c"
+# 82 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\app\\12_Fft - Afec\\src\\Asw\\Main.c"
 extern int main( void )
 {
 
@@ -28095,11 +28096,17 @@ extern int main( void )
 
  printf( "\n\r-- Scheduler Project %s --\n\r", "1.3" ) ;
  printf( "-- %s\n\r", "SAM V71 Xplained Ultra" ) ;
- printf( "-- Compiled: %s %s With %s --\n\r", "Dec  1 2023", "02:33:29" , "GCC");
+ printf( "-- Compiled: %s %s With %s --\n\r", "Dec  1 2023", "03:05:05" , "GCC");
+
+ I2S_AudioRecord();
+ uinttofloat(fft_inputData, ssc_inputData);
 
 
   printf( "-- Scheduler Initialization --\n\r" ) ;
 
+
+
+ fft_process();
 
 
  for(;;)
@@ -28151,6 +28158,7 @@ void CODEC_Init(void)
 
    uint16_t data = 0;
 
+ uint32_t status = TimeTick_Configure();
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x00, 0xFFFF);
  data = WM8904_Read(&pTwid, 0x1a | (0x0 << 0), 0x00);
  if(data != 0x8904)

@@ -67,6 +67,7 @@ void I2C_Init(void);
 void I2S_Init(void);
 
 void I2S_AudioRecord();
+void uinttofloat(float * floatbuffer, uint32_t * sscdata);
 
 pfun pFFT = &fft_process;
 
@@ -100,9 +101,15 @@ extern int main( void )
 	printf( "-- %s\n\r", BOARD_NAME ) ;
 	printf( "-- Compiled: %s %s With %s --\n\r", __DATE__, __TIME__ , COMPILER_NAME);
 
+	I2S_AudioRecord();
+	uinttofloat(fft_inputData, ssc_inputData);
+
   /* Scheduler Inititalization */
   printf( "-- Scheduler Initialization --\n\r" ) ;
 	//SchM_Init(ScheduleConfig);
+
+	//FFT
+	fft_process();
 	
 	/* Should never reach this code */
 	for(;;)
@@ -154,6 +161,7 @@ void CODEC_Init(void)
 
   	uint16_t data = 0;
 	/* check that WM8904 is present */
+	uint32_t status = TimeTick_Configure();
 	WM8904_Write(&pTwid, WM8904_SLAVE_ADDRESS, WM8904_REG_RESET, 0xFFFF);
 	data = WM8904_Read(&pTwid, WM8904_SLAVE_ADDRESS, WM8904_REG_RESET);
 	if(data != 0x8904) 
