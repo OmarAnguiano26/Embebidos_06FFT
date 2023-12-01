@@ -28043,10 +28043,10 @@ void Fpu_Enable(void);
 #define SAMP_PER (50)
 #define BUFF_SIZE (8192)
 
-
-
-
-
+#define SSC_RCMR_CONFIG (SSC_RCMR_CKS_TK | SSC_RCMR_CKO_NONE | SSC_RCMR_CKI | SSC_RCMR_CKG_CONTINUOUS | SSC_RCMR_START_RF_EDGE | SSC_RCMR_STTDLY(1) | SSC_RCMR_PERIOD(0))
+#define SSC_RFMR_CONFIG (SSC_RFMR_DATLEN(15) | SSC_RFMR_MSBF | SSC_RFMR_FSLEN(15) | SSC_TFMR_FSOS_NONE | SSC_TFMR_FSEDGE_POSITIVE)
+#define SSC_TCMR_CONFIG (SSC_TCMR_CKS_TK | SSC_TCMR_CKO_NONE | SSC_TCMR_CKG_CONTINUOUS | SSC_TCMR_START_TF_EDGE | SSC_TCMR_STTDLY(1) | SSC_TCMR_PERIOD(0))
+#define SSC_TFMR_CONFIG (SSC_RFMR_DATLEN(15) | SSC_TFMR_MSBF | SSC_RFMR_FSLEN(15) | SSC_TFMR_FSOS_NONE | SSC_TFMR_FSEDGE_POSITIVE)
 
 Pin SSC_Pins[] = {{(1u << 26), ((Pio *)0x400E1400U), (16), 1, (0 << 0)}, {(1u << 1), ((Pio *)0x400E1000U), (11), 3, (0 << 0)}, {(1u << 0), ((Pio *)0x400E1000U), (11), 3, (0 << 0)}, {(1u << 10), ((Pio *)0x400E0E00U), (10), 2, (0 << 0)}, {(1u << 22), ((Pio *)0x400E0E00U), (10), 0, (0 << 0)}, {(1u << 24), ((Pio *)0x400E1400U), (16), 1, (0 << 0)}};
 Pin PCK2_Pins[] = {(1u << 18), ((Pio *)0x400E0E00U), (10), 1, (0 << 0)};
@@ -28089,7 +28089,7 @@ extern int main( void )
 
  printf( "\n\r-- Scheduler Project %s --\n\r", "1.3" ) ;
  printf( "-- %s\n\r", "SAM V71 Xplained Ultra" ) ;
- printf( "-- Compiled: %s %s With %s --\n\r", "Nov 30 2023", "02:10:34" , "GCC");
+ printf( "-- Compiled: %s %s With %s --\n\r", "Nov 30 2023", "21:37:58" , "GCC");
 
 
   printf( "-- Scheduler Initialization --\n\r" ) ;
@@ -28125,13 +28125,13 @@ void I2C_Init(void)
 
 void I2S_Init(void)
 {
-  PMC_EnablePeripheral((22));
-  PIO_Configure(SSC_Pins, 6);
-  SSC_Configure(((Ssc *)0x40004000U), (8000), (150000000));
-  SSC_ConfigureTransmitter(((Ssc *)0x40004000U), 0, 0);
-  SSC_ConfigureReceiver(((Ssc *)0x40004000U), 0x700, 0);
-  SSC_EnableTransmitter(((Ssc *)0x40004000U));
-  SSC_EnableReceiver(((Ssc *)0x40004000U));
+   PMC_EnablePeripheral((22));
+   PIO_Configure(SSC_Pins, 6);
+   SSC_Configure(((Ssc *)0x40004000U), (8000), (150000000));
+   SSC_ConfigureTransmitter(((Ssc *)0x40004000U), ((0x2u << 0) | (0x0u << 2) | (0x0u << 6) | (0x7u << 8) | (((0xffu << 16) & ((1) << 16))) | (((0xffu << 24) & ((0) << 24)))), ((((0x1fu << 0) & ((15) << 0))) | (0x1u << 7) | (((0xfu << 16) & ((15) << 16))) | (0x0u << 20) | (0x0u << 24)));
+   SSC_ConfigureReceiver(((Ssc *)0x40004000U), ((0x1u << 0) | (0x0u << 2) | (0x1u << 5) | (0x0u << 6) | (0x7u << 8) | (((0xffu << 16) & ((1) << 16))) | (((0xffu << 24) & ((0) << 24)))) , ((((0x1fu << 0) & ((15) << 0))) | (0x1u << 7) | (((0xfu << 16) & ((15) << 16))) | (0x0u << 20) | (0x0u << 24)));
+   SSC_EnableTransmitter(((Ssc *)0x40004000U));
+   SSC_EnableReceiver(((Ssc *)0x40004000U));
 }
 
 void CODEC_Init(void)
@@ -28146,15 +28146,16 @@ void CODEC_Init(void)
 
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x00, 0xFFFF);
  data = WM8904_Read(&pTwid, 0x1a | (0x0 << 0), 0x00);
- if(data != 0x8904) {
+ if(data != 0x8904)
+ {
   printf("WM8904 not found!\n\r");
  }
 
-  WM8904_Init(&pTwid, 0x1a | (0x0 << 0), (0x1u << 0));
-  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x04, (0x000C & ((2) << 2)));
+   WM8904_Init(&pTwid, 0x1a | (0x0 << 0), (0x1u << 0));
+   WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x04, (0x000C & ((2) << 2)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x05, 0x0040 | (0x0006 & ((3) << 1)) | 0x0001);
 
-  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x04, (0x000C & ((2) << 2)) | 0x0001);
+   WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x04, (0x000C & ((2) << 2)) | 0x0001);
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x0C, 0x0002 | 0x0001);
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x0E, 0x0002 | 0x0001);
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x21, (0x0006 & ((0) << 1)));
@@ -28167,7 +28168,7 @@ void CODEC_Init(void)
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x77, (0x7FE0 & ((0xBB) << 5)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x74, 0x0004 | 0x0001);
 
-  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x15, (0x3C00 & ((3) << 10)) | (0x0007 & ((5) << 0)));
+   WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x15, (0x3C00 & ((3) << 10)) | (0x0007 & ((5) << 0)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x14, 0x0000);
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x16, 0x4000 | 0x0004 | 0x0002);
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x19, 0x0040 | (0x0003 & ((2) << 0)));
@@ -28175,7 +28176,7 @@ void CODEC_Init(void)
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x1B, 0x0800 | (0x07FF & ((0x20) << 0)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x12, 0x0008 | 0x0004 | 0x0002 | 0x0001);
 
-  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x2C, (0x001F & ((0x10) << 0)));
+   WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x2C, (0x001F & ((0x10) << 0)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x2D, (0x001F & ((0x10) << 0)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x5A, 0x0010 | 0x0001);
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x5A, 0x0020
@@ -28185,11 +28186,9 @@ void CODEC_Init(void)
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x44, 0x0080
                 | 0x0040 |0x0020 | 0x0010);
 
-  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x5A,
-          0x0040 | 0x0020 | 0x0010 |
+   WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x5A, 0x0040 | 0x0020 | 0x0010 |
           0x0004 | 0x0002 | 0x0001);
- WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x5A,
-          0x0080 | 0x0040 | 0x0020 | 0x0010 |
+ WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x5A, 0x0080 | 0x0040 | 0x0020 | 0x0010 |
           0x0008 | 0x0004 | 0x0002 | 0x0001);
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x39, 0x0080 | (0x003F & ((0x39) << 0)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x3A, 0x0080 | (0x003F & ((0x39) << 0)));
