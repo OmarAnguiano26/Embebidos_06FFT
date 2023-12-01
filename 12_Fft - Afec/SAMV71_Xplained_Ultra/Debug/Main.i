@@ -28042,6 +28042,7 @@ void Fpu_Enable(void);
 
 #define SAMP_PER (50)
 #define BUFF_SIZE (8192)
+#define FFT_SIZE (1024)
 
 #define SSC_RCMR_CONFIG (SSC_RCMR_CKS_TK | SSC_RCMR_CKO_NONE | SSC_RCMR_CKI | SSC_RCMR_CKG_CONTINUOUS | SSC_RCMR_START_RF_EDGE | SSC_RCMR_STTDLY(1) | SSC_RCMR_PERIOD(0))
 #define SSC_RFMR_CONFIG (SSC_RFMR_DATLEN(15) | SSC_RFMR_MSBF | SSC_RFMR_FSLEN(15) | SSC_TFMR_FSOS_NONE | SSC_TFMR_FSEDGE_POSITIVE)
@@ -28061,6 +28062,8 @@ uint32_t u32fft_maxPowerIndex;
 
 float fft_maxPower;
 
+uint32_t ssc_inputData[(8192)];
+
 
 
 void fft_process(void);
@@ -28071,7 +28074,7 @@ void I2S_Init(void);
 void I2S_AudioRecord();
 
 pfun pFFT = &fft_process;
-# 78 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\app\\12_Fft - Afec\\src\\Asw\\Main.c"
+# 81 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\app\\12_Fft - Afec\\src\\Asw\\Main.c"
 extern int main( void )
 {
 
@@ -28087,9 +28090,12 @@ extern int main( void )
   Fpu_Enable();
   PMC_EnablePeripheral(( 5));
 
+ I2C_Init();
+    CODEC_Init();
+
  printf( "\n\r-- Scheduler Project %s --\n\r", "1.3" ) ;
  printf( "-- %s\n\r", "SAM V71 Xplained Ultra" ) ;
- printf( "-- Compiled: %s %s With %s --\n\r", "Nov 30 2023", "21:37:58" , "GCC");
+ printf( "-- Compiled: %s %s With %s --\n\r", "Dec  1 2023", "02:33:29" , "GCC");
 
 
   printf( "-- Scheduler Initialization --\n\r" ) ;
@@ -28130,6 +28136,7 @@ void I2S_Init(void)
    SSC_Configure(((Ssc *)0x40004000U), (8000), (150000000));
    SSC_ConfigureTransmitter(((Ssc *)0x40004000U), ((0x2u << 0) | (0x0u << 2) | (0x0u << 6) | (0x7u << 8) | (((0xffu << 16) & ((1) << 16))) | (((0xffu << 24) & ((0) << 24)))), ((((0x1fu << 0) & ((15) << 0))) | (0x1u << 7) | (((0xfu << 16) & ((15) << 16))) | (0x0u << 20) | (0x0u << 24)));
    SSC_ConfigureReceiver(((Ssc *)0x40004000U), ((0x1u << 0) | (0x0u << 2) | (0x1u << 5) | (0x0u << 6) | (0x7u << 8) | (((0xffu << 16) & ((1) << 16))) | (((0xffu << 24) & ((0) << 24)))) , ((((0x1fu << 0) & ((15) << 0))) | (0x1u << 7) | (((0xfu << 16) & ((15) << 16))) | (0x0u << 20) | (0x0u << 24)));
+
    SSC_EnableTransmitter(((Ssc *)0x40004000U));
    SSC_EnableReceiver(((Ssc *)0x40004000U));
 }
@@ -28171,7 +28178,7 @@ void CODEC_Init(void)
    WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x15, (0x3C00 & ((3) << 10)) | (0x0007 & ((5) << 0)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x14, 0x0000);
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x16, 0x4000 | 0x0004 | 0x0002);
- WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x19, 0x0040 | (0x0003 & ((2) << 0)));
+ WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x19, 0x0040 | (0x0003 & ((2) << 0)) | (0x000C & ((3) << 2)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x1A, (0x001F & ((8) << 0)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x1B, 0x0800 | (0x07FF & ((0x20) << 0)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x12, 0x0008 | 0x0004 | 0x0002 | 0x0001);
@@ -28192,5 +28199,27 @@ void CODEC_Init(void)
           0x0008 | 0x0004 | 0x0002 | 0x0001);
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x39, 0x0080 | (0x003F & ((0x39) << 0)));
  WM8904_Write(&pTwid, 0x1a | (0x0 << 0), 0x3A, 0x0080 | (0x003F & ((0x39) << 0)));
+}
 
+void I2S_AudioRecord()
+{
+ int i = 0;
+ for( i = 0; i < (8192); i++ )
+ {
+  ssc_inputData[i] = SSC_Read(((Ssc *)0x40004000U));
+  while(!SSC_IsRxReady(((Ssc *)0x40004000U)))
+  {
+  }
+ }
+}
+
+void uinttofloat(float * floatbuffer, uint32_t * sscdata)
+{
+ int i = 0;
+ for( i = 0; i < (8192); i++ )
+ {
+  floatbuffer[i] = ((float)sscdata[i]) / (float) 32768;
+  if( floatbuffer[i] > 1 ) floatbuffer[i] = 1.0;
+  if( floatbuffer[i] < -1 ) floatbuffer[i] = -1.0;
+ }
 }

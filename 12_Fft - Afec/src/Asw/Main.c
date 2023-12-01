@@ -206,7 +206,8 @@ void CODEC_Init(void)
 
 void I2S_AudioRecord()
 {
-	for(int i = 0; i < BUFF_SIZE; i++ )
+	int i = 0;
+	for( i = 0; i < BUFF_SIZE; i++ )
 	{
 		ssc_inputData[i] = SSC_Read(SSC);
 		while(!SSC_IsRxReady(SSC)) //waits until frame is received
@@ -217,7 +218,8 @@ void I2S_AudioRecord()
 
 void uinttofloat(float * floatbuffer, uint32_t * sscdata)
 {
-	for(int i = 0; i < BUFF_SIZE; i++ )
+	int i = 0;
+	for( i = 0; i < BUFF_SIZE; i++ )
 	{
 		floatbuffer[i] = ((float)sscdata[i]) / (float) 32768;
 		if( floatbuffer[i] > 1 ) floatbuffer[i] = 1.0;
