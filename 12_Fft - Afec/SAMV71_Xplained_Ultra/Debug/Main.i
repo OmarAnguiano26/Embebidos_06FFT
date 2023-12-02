@@ -28038,16 +28038,17 @@ void Fpu_Enable(void);
 
 #define MASTERCLOCK (150000000)
 #define I2C_BAUDRATE (400000)
-#define I2S_BITRATE (8000)
+#define I2S_BITRATE (8000 * 32)
 
 #define SAMP_PER (50)
 #define BUFF_SIZE (8192)
 #define FFT_SIZE (1024)
 
-#define SSC_RCMR_CONFIG (SSC_RCMR_CKS_TK | SSC_RCMR_CKO_NONE | SSC_RCMR_CKI | SSC_RCMR_CKG_CONTINUOUS | SSC_RCMR_START_RF_EDGE | SSC_RCMR_STTDLY(1) | SSC_RCMR_PERIOD(0))
-#define SSC_RFMR_CONFIG (SSC_RFMR_DATLEN(15) | SSC_RFMR_MSBF | SSC_RFMR_FSLEN(15) | SSC_TFMR_FSOS_NONE | SSC_TFMR_FSEDGE_POSITIVE)
+#define SSC_RCMR_CONFIG (SSC_RCMR_CKS_MCK | SSC_RCMR_CKO_NONE | SSC_RCMR_CKG_CONTINUOUS | SSC_RCMR_START_RF_EDGE | SSC_RCMR_STTDLY(1) | SSC_RCMR_PERIOD(0))
+#define SSC_RFMR_CONFIG (SSC_RFMR_DATLEN(15) | SSC_RFMR_MSBF | SSC_TFMR_FSOS_NONE | SSC_TFMR_FSEDGE_POSITIVE)
 #define SSC_TCMR_CONFIG (SSC_TCMR_CKS_TK | SSC_TCMR_CKO_NONE | SSC_TCMR_CKG_CONTINUOUS | SSC_TCMR_START_TF_EDGE | SSC_TCMR_STTDLY(1) | SSC_TCMR_PERIOD(0))
 #define SSC_TFMR_CONFIG (SSC_RFMR_DATLEN(15) | SSC_TFMR_MSBF | SSC_RFMR_FSLEN(15) | SSC_TFMR_FSOS_NONE | SSC_TFMR_FSEDGE_POSITIVE)
+
 
 Pin SSC_Pins[] = {{(1u << 26), ((Pio *)0x400E1400U), (16), 1, (0 << 0)}, {(1u << 1), ((Pio *)0x400E1000U), (11), 3, (0 << 0)}, {(1u << 0), ((Pio *)0x400E1000U), (11), 3, (0 << 0)}, {(1u << 10), ((Pio *)0x400E0E00U), (10), 2, (0 << 0)}, {(1u << 22), ((Pio *)0x400E0E00U), (10), 0, (0 << 0)}, {(1u << 24), ((Pio *)0x400E1400U), (16), 1, (0 << 0)}};
 Pin PCK2_Pins[] = {(1u << 18), ((Pio *)0x400E0E00U), (10), 1, (0 << 0)};
@@ -28075,11 +28076,11 @@ void I2S_AudioRecord();
 void uinttofloat(float * floatbuffer, uint32_t * sscdata);
 
 pfun pFFT = &fft_process;
-# 82 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\app\\12_Fft - Afec\\src\\Asw\\Main.c"
+# 83 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\app\\12_Fft - Afec\\src\\Asw\\Main.c"
 extern int main( void )
 {
 
-
+ Wdg_Disable();
 
  LedCtrl_Configure();
 
@@ -28096,8 +28097,9 @@ extern int main( void )
 
  printf( "\n\r-- Scheduler Project %s --\n\r", "1.3" ) ;
  printf( "-- %s\n\r", "SAM V71 Xplained Ultra" ) ;
- printf( "-- Compiled: %s %s With %s --\n\r", "Dec  1 2023", "03:05:05" , "GCC");
+ printf( "-- Compiled: %s %s With %s --\n\r", "Dec  1 2023", "22:19:21" , "GCC");
 
+ I2S_Init();
  I2S_AudioRecord();
  uinttofloat(fft_inputData, ssc_inputData);
 
@@ -28140,9 +28142,11 @@ void I2S_Init(void)
 {
    PMC_EnablePeripheral((22));
    PIO_Configure(SSC_Pins, 6);
-   SSC_Configure(((Ssc *)0x40004000U), (8000), (150000000));
+   SSC_Configure(((Ssc *)0x40004000U), (8000 * 32), (150000000));
    SSC_ConfigureTransmitter(((Ssc *)0x40004000U), ((0x2u << 0) | (0x0u << 2) | (0x0u << 6) | (0x7u << 8) | (((0xffu << 16) & ((1) << 16))) | (((0xffu << 24) & ((0) << 24)))), ((((0x1fu << 0) & ((15) << 0))) | (0x1u << 7) | (((0xfu << 16) & ((15) << 16))) | (0x0u << 20) | (0x0u << 24)));
-   SSC_ConfigureReceiver(((Ssc *)0x40004000U), ((0x1u << 0) | (0x0u << 2) | (0x1u << 5) | (0x0u << 6) | (0x7u << 8) | (((0xffu << 16) & ((1) << 16))) | (((0xffu << 24) & ((0) << 24)))) , ((((0x1fu << 0) & ((15) << 0))) | (0x1u << 7) | (((0xfu << 16) & ((15) << 16))) | (0x0u << 20) | (0x0u << 24)));
+   SSC_ConfigureReceiver(((Ssc *)0x40004000U), ((0x0u << 0) | (0x0u << 2) | (0x0u << 6) | (0x7u << 8) | (((0xffu << 16) & ((1) << 16))) | (((0xffu << 24) & ((0) << 24)))) , ((((0x1fu << 0) & ((15) << 0))) | (0x1u << 7) | (0x0u << 20) | (0x0u << 24)));
+
+ PMC_ConfigurePCK2(1, 0);
 
    SSC_EnableTransmitter(((Ssc *)0x40004000U));
    SSC_EnableReceiver(((Ssc *)0x40004000U));
@@ -28214,9 +28218,10 @@ void I2S_AudioRecord()
  int i = 0;
  for( i = 0; i < (8192); i++ )
  {
-  ssc_inputData[i] = SSC_Read(((Ssc *)0x40004000U));
+
   while(!SSC_IsRxReady(((Ssc *)0x40004000U)))
   {
+   ssc_inputData[i] = SSC_Read(((Ssc *)0x40004000U));
   }
  }
 }

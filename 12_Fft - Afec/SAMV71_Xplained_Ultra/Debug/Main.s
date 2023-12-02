@@ -353,7 +353,7 @@ pFFT:
 	.ascii	"Dec  1 2023\000"
 	.align	2
 .LC6:
-	.ascii	"03:05:05\000"
+	.ascii	"22:19:21\000"
 	.align	2
 .LC7:
 	.ascii	"GCC\000"
@@ -369,7 +369,7 @@ pFFT:
 main:
 .LFB283:
 	.file 3 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\app\\12_Fft - Afec\\src\\Asw\\Main.c"
-	.loc 3 83 0
+	.loc 3 84 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -379,50 +379,54 @@ main:
 	.cfi_offset 14, -4
 	add	r7, sp, #0
 	.cfi_def_cfa_register 7
-	.loc 3 87 0
+	.loc 3 86 0
+	bl	Wdg_Disable
+	.loc 3 88 0
 	bl	LedCtrl_Configure
-	.loc 3 89 0
+	.loc 3 90 0
 	bl	ButtonCtrl_ConfigureSW0Button
-	.loc 3 91 0
-	bl	SCB_EnableICache
 	.loc 3 92 0
+	bl	SCB_EnableICache
+	.loc 3 93 0
 	bl	SCB_EnableDCache
-	.loc 3 94 0
-	bl	Fpu_Enable
 	.loc 3 95 0
+	bl	Fpu_Enable
+	.loc 3 96 0
 	movs	r0, #5
 	bl	PMC_EnablePeripheral
-	.loc 3 97 0
-	bl	I2C_Init
 	.loc 3 98 0
+	bl	I2C_Init
+	.loc 3 99 0
 	bl	CODEC_Init
-	.loc 3 100 0
+	.loc 3 101 0
 	ldr	r0, .L12
 	ldr	r1, .L12+4
 	bl	printf
-	.loc 3 101 0
+	.loc 3 102 0
 	ldr	r0, .L12+8
 	ldr	r1, .L12+12
 	bl	printf
-	.loc 3 102 0
+	.loc 3 103 0
 	ldr	r0, .L12+16
 	ldr	r1, .L12+20
 	ldr	r2, .L12+24
 	ldr	r3, .L12+28
 	bl	printf
-	.loc 3 104 0
-	bl	I2S_AudioRecord
 	.loc 3 105 0
+	bl	I2S_Init
+	.loc 3 106 0
+	bl	I2S_AudioRecord
+	.loc 3 107 0
 	ldr	r0, .L12+32
 	ldr	r1, .L12+36
 	bl	uinttofloat
-	.loc 3 108 0
+	.loc 3 110 0
 	ldr	r0, .L12+40
 	bl	printf
-	.loc 3 112 0
+	.loc 3 114 0
 	bl	fft_process
 .L11:
-	.loc 3 118 0 discriminator 1
+	.loc 3 120 0 discriminator 1
 	b	.L11
 .L13:
 	.align	2
@@ -454,7 +458,7 @@ main:
 	.type	fft_process, %function
 fft_process:
 .LFB284:
-	.loc 3 122 0
+	.loc 3 124 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -467,7 +471,7 @@ fft_process:
 	.cfi_def_cfa_offset 24
 	add	r7, sp, #8
 	.cfi_def_cfa 7, 16
-	.loc 3 124 0
+	.loc 3 126 0
 	ldr	r3, .L15
 	str	r3, [sp]
 	ldr	r0, .L15+4
@@ -475,7 +479,7 @@ fft_process:
 	mov	r2, #4096
 	ldr	r3, .L15+12
 	bl	fft
-	.loc 3 127 0
+	.loc 3 129 0
 	ldr	r3, .L15+12
 	ldr	r4, [r3]
 	ldr	r3, .L15
@@ -487,7 +491,7 @@ fft_process:
 	ldr	r0, .L15+16
 	mov	r1, r4
 	bl	printf
-	.loc 3 128 0
+	.loc 3 130 0
 	adds	r7, r7, #4
 	.cfi_def_cfa_offset 12
 	mov	sp, r7
@@ -512,7 +516,7 @@ fft_process:
 	.type	I2C_Init, %function
 I2C_Init:
 .LFB285:
-	.loc 3 131 0
+	.loc 3 133 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -522,34 +526,34 @@ I2C_Init:
 	.cfi_offset 14, -4
 	add	r7, sp, #0
 	.cfi_def_cfa_register 7
-	.loc 3 132 0
+	.loc 3 134 0
 	movs	r0, #10
 	bl	PMC_EnablePeripheral
-	.loc 3 133 0
+	.loc 3 135 0
 	movs	r0, #11
 	bl	PMC_EnablePeripheral
-	.loc 3 134 0
+	.loc 3 136 0
 	movs	r0, #12
 	bl	PMC_EnablePeripheral
-	.loc 3 135 0
+	.loc 3 137 0
 	movs	r0, #16
 	bl	PMC_EnablePeripheral
-	.loc 3 136 0
+	.loc 3 138 0
 	movs	r0, #17
 	bl	PMC_EnablePeripheral
-	.loc 3 137 0
+	.loc 3 139 0
 	movs	r0, #19
 	bl	PMC_EnablePeripheral
-	.loc 3 138 0
+	.loc 3 140 0
 	ldr	r0, .L18
 	movs	r1, #2
 	bl	PIO_Configure
-	.loc 3 139 0
+	.loc 3 141 0
 	ldr	r0, .L18+4
 	ldr	r1, .L18+8
 	ldr	r2, .L18+12
 	bl	TWI_ConfigureMaster
-	.loc 3 140 0
+	.loc 3 142 0
 	pop	{r7, pc}
 .L19:
 	.align	2
@@ -568,7 +572,7 @@ I2C_Init:
 	.type	I2S_Init, %function
 I2S_Init:
 .LFB286:
-	.loc 3 143 0
+	.loc 3 145 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -578,35 +582,39 @@ I2S_Init:
 	.cfi_offset 14, -4
 	add	r7, sp, #0
 	.cfi_def_cfa_register 7
-	.loc 3 144 0
+	.loc 3 146 0
 	movs	r0, #22
 	bl	PMC_EnablePeripheral
-	.loc 3 145 0
+	.loc 3 147 0
 	ldr	r0, .L21
 	movs	r1, #6
 	bl	PIO_Configure
-	.loc 3 146 0
+	.loc 3 148 0
 	mov	r0, #1073758208
-	mov	r1, #8000
+	mov	r1, #256000
 	ldr	r2, .L21+4
 	bl	SSC_Configure
-	.loc 3 147 0
+	.loc 3 149 0
 	mov	r0, #1073758208
 	ldr	r1, .L21+8
 	ldr	r2, .L21+12
 	bl	SSC_ConfigureTransmitter
-	.loc 3 148 0
-	mov	r0, #1073758208
-	ldr	r1, .L21+16
-	ldr	r2, .L21+12
-	bl	SSC_ConfigureReceiver
 	.loc 3 150 0
 	mov	r0, #1073758208
+	ldr	r1, .L21+16
+	movs	r2, #143
+	bl	SSC_ConfigureReceiver
+	.loc 3 152 0
+	movs	r0, #1
+	movs	r1, #0
+	bl	PMC_ConfigurePCK2
+	.loc 3 154 0
+	mov	r0, #1073758208
 	bl	SSC_EnableTransmitter
-	.loc 3 151 0
+	.loc 3 155 0
 	mov	r0, #1073758208
 	bl	SSC_EnableReceiver
-	.loc 3 152 0
+	.loc 3 156 0
 	pop	{r7, pc}
 .L22:
 	.align	2
@@ -615,7 +623,7 @@ I2S_Init:
 	.word	150000000
 	.word	67330
 	.word	983183
-	.word	67361
+	.word	67328
 	.cfi_endproc
 .LFE286:
 	.size	I2S_Init, .-I2S_Init
@@ -631,7 +639,7 @@ I2S_Init:
 	.type	CODEC_Init, %function
 CODEC_Init:
 .LFB287:
-	.loc 3 155 0
+	.loc 3 159 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 16
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -643,26 +651,26 @@ CODEC_Init:
 	.cfi_def_cfa_offset 24
 	add	r7, sp, #0
 	.cfi_def_cfa_register 7
-	.loc 3 159 0
+	.loc 3 163 0
 	ldr	r3, .L25
 	str	r3, [r7]
-	.loc 3 160 0
+	.loc 3 164 0
 	movs	r3, #0
 	str	r3, [r7, #4]
-	.loc 3 162 0
+	.loc 3 166 0
 	movs	r3, #0
 	strh	r3, [r7, #14]	@ movhi
-	.loc 3 164 0
+	.loc 3 168 0
 	bl	TimeTick_Configure
 	str	r0, [r7, #8]
-	.loc 3 165 0
+	.loc 3 169 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #0
 	movw	r3, #65535
 	bl	WM8904_Write
-	.loc 3 166 0
+	.loc 3 170 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
@@ -670,239 +678,239 @@ CODEC_Init:
 	bl	WM8904_Read
 	mov	r3, r0
 	strh	r3, [r7, #14]	@ movhi
-	.loc 3 167 0
+	.loc 3 171 0
 	ldrh	r3, [r7, #14]
 	movw	r2, #35076
 	cmp	r3, r2
 	beq	.L24
-	.loc 3 169 0
+	.loc 3 173 0
 	ldr	r0, .L25+4
 	bl	printf
 .L24:
-	.loc 3 172 0
+	.loc 3 176 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #1
 	bl	WM8904_Init
-	.loc 3 173 0
+	.loc 3 177 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #4
 	movs	r3, #8
 	bl	WM8904_Write
-	.loc 3 174 0
+	.loc 3 178 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #5
 	movs	r3, #71
 	bl	WM8904_Write
-	.loc 3 176 0
+	.loc 3 180 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #4
 	movs	r3, #9
 	bl	WM8904_Write
-	.loc 3 177 0
+	.loc 3 181 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #12
 	movs	r3, #3
 	bl	WM8904_Write
-	.loc 3 178 0
+	.loc 3 182 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #14
 	movs	r3, #3
 	bl	WM8904_Write
-	.loc 3 179 0
+	.loc 3 183 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #33
 	movs	r3, #0
 	bl	WM8904_Write
-	.loc 3 180 0
+	.loc 3 184 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #61
 	movs	r3, #0
 	bl	WM8904_Write
-	.loc 3 181 0
+	.loc 3 185 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #98
 	movs	r3, #1
 	bl	WM8904_Write
-	.loc 3 182 0
+	.loc 3 186 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #104
 	movs	r3, #1
 	bl	WM8904_Write
-	.loc 3 183 0
+	.loc 3 187 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #116
 	movs	r3, #0
 	bl	WM8904_Write
-	.loc 3 184 0
+	.loc 3 188 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #117
 	movw	r3, #1796
 	bl	WM8904_Write
-	.loc 3 185 0
+	.loc 3 189 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #118
 	mov	r3, #32768
 	bl	WM8904_Write
-	.loc 3 186 0
+	.loc 3 190 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #119
 	mov	r3, #5984
 	bl	WM8904_Write
-	.loc 3 187 0
+	.loc 3 191 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #116
 	movs	r3, #5
 	bl	WM8904_Write
-	.loc 3 189 0
+	.loc 3 193 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #21
 	movw	r3, #3077
 	bl	WM8904_Write
-	.loc 3 190 0
+	.loc 3 194 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #20
 	movs	r3, #0
 	bl	WM8904_Write
-	.loc 3 191 0
+	.loc 3 195 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #22
 	movw	r3, #16390
 	bl	WM8904_Write
-	.loc 3 192 0
+	.loc 3 196 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #25
 	movs	r3, #78
 	bl	WM8904_Write
-	.loc 3 193 0
+	.loc 3 197 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #26
 	movs	r3, #8
 	bl	WM8904_Write
-	.loc 3 194 0
+	.loc 3 198 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #27
 	mov	r3, #2080
 	bl	WM8904_Write
-	.loc 3 195 0
+	.loc 3 199 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #18
 	movs	r3, #15
 	bl	WM8904_Write
-	.loc 3 197 0
+	.loc 3 201 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #44
 	movs	r3, #16
 	bl	WM8904_Write
-	.loc 3 198 0
+	.loc 3 202 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #45
 	movs	r3, #16
 	bl	WM8904_Write
-	.loc 3 199 0
+	.loc 3 203 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #90
 	movs	r3, #17
 	bl	WM8904_Write
-	.loc 3 200 0
+	.loc 3 204 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #90
 	movs	r3, #51
 	bl	WM8904_Write
-	.loc 3 202 0
+	.loc 3 206 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #67
 	movs	r3, #15
 	bl	WM8904_Write
-	.loc 3 204 0
+	.loc 3 208 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #68
 	movs	r3, #240
 	bl	WM8904_Write
-	.loc 3 207 0
+	.loc 3 211 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #90
 	movs	r3, #119
 	bl	WM8904_Write
-	.loc 3 209 0
+	.loc 3 213 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #90
 	movs	r3, #255
 	bl	WM8904_Write
-	.loc 3 211 0
+	.loc 3 215 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #57
 	movs	r3, #185
 	bl	WM8904_Write
-	.loc 3 212 0
+	.loc 3 216 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #58
 	movs	r3, #185
 	bl	WM8904_Write
-	.loc 3 213 0
+	.loc 3 217 0
 	adds	r7, r7, #16
 	.cfi_def_cfa_offset 8
 	mov	sp, r7
@@ -924,7 +932,7 @@ CODEC_Init:
 	.type	I2S_AudioRecord, %function
 I2S_AudioRecord:
 .LFB288:
-	.loc 3 216 0
+	.loc 3 220 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 8
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -936,49 +944,50 @@ I2S_AudioRecord:
 	.cfi_def_cfa_offset 16
 	add	r7, sp, #0
 	.cfi_def_cfa_register 7
-	.loc 3 217 0
+	.loc 3 221 0
 	movs	r3, #0
 	str	r3, [r7, #4]
-	.loc 3 218 0
+	.loc 3 222 0
 	movs	r3, #0
 	str	r3, [r7, #4]
 	b	.L28
+.L31:
+	.loc 3 225 0
+	b	.L29
 .L30:
-	.loc 3 220 0
+	.loc 3 227 0
 	mov	r0, #1073758208
 	bl	SSC_Read
 	mov	r1, r0
-	ldr	r2, .L31
+	ldr	r2, .L32
 	ldr	r3, [r7, #4]
 	str	r1, [r2, r3, lsl #2]
-	.loc 3 221 0
-	nop
 .L29:
-	.loc 3 221 0 is_stmt 0 discriminator 1
+	.loc 3 225 0
 	mov	r0, #1073758208
 	bl	SSC_IsRxReady
 	mov	r3, r0
 	cmp	r3, #0
-	beq	.L29
-	.loc 3 218 0 is_stmt 1 discriminator 2
+	beq	.L30
+	.loc 3 222 0 discriminator 2
 	ldr	r3, [r7, #4]
 	adds	r3, r3, #1
 	str	r3, [r7, #4]
 .L28:
-	.loc 3 218 0 is_stmt 0 discriminator 1
+	.loc 3 222 0 is_stmt 0 discriminator 1
 	ldr	r3, [r7, #4]
 	cmp	r3, #8192
-	blt	.L30
-	.loc 3 225 0 is_stmt 1
+	blt	.L31
+	.loc 3 230 0 is_stmt 1
 	adds	r7, r7, #8
 	.cfi_def_cfa_offset 8
 	mov	sp, r7
 	.cfi_def_cfa_register 13
 	@ sp needed
 	pop	{r7, pc}
-.L32:
+.L33:
 	.align	2
-.L31:
+.L32:
 	.word	ssc_inputData
 	.cfi_endproc
 .LFE288:
@@ -990,7 +999,7 @@ I2S_AudioRecord:
 	.type	uinttofloat, %function
 uinttofloat:
 .LFB289:
-	.loc 3 228 0
+	.loc 3 233 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 16
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -1004,15 +1013,15 @@ uinttofloat:
 	.cfi_def_cfa_register 7
 	str	r0, [r7, #4]
 	str	r1, [r7]
-	.loc 3 229 0
+	.loc 3 234 0
 	movs	r3, #0
 	str	r3, [r7, #12]
-	.loc 3 230 0
+	.loc 3 235 0
 	movs	r3, #0
 	str	r3, [r7, #12]
-	b	.L34
-.L39:
-	.loc 3 232 0
+	b	.L35
+.L40:
+	.loc 3 237 0
 	ldr	r3, [r7, #12]
 	lsls	r3, r3, #2
 	ldr	r2, [r7, #4]
@@ -1024,10 +1033,10 @@ uinttofloat:
 	ldr	r2, [r2]
 	fmsr	s15, r2	@ int
 	fuitos	s15, s15
-	flds	s14, .L42
+	flds	s14, .L43
 	fdivs	s15, s15, s14
 	fsts	s15, [r3]
-	.loc 3 233 0
+	.loc 3 238 0
 	ldr	r3, [r7, #12]
 	lsls	r3, r3, #2
 	ldr	r2, [r7, #4]
@@ -1036,16 +1045,16 @@ uinttofloat:
 	fconsts	s14, #112
 	fcmpes	s15, s14
 	fmstat
-	ble	.L35
-	.loc 3 233 0 is_stmt 0 discriminator 1
+	ble	.L36
+	.loc 3 238 0 is_stmt 0 discriminator 1
 	ldr	r3, [r7, #12]
 	lsls	r3, r3, #2
 	ldr	r2, [r7, #4]
 	add	r3, r3, r2
 	mov	r2, #1065353216
 	str	r2, [r3]	@ float
-.L35:
-	.loc 3 234 0 is_stmt 1
+.L36:
+	.loc 3 239 0 is_stmt 1
 	ldr	r3, [r7, #12]
 	lsls	r3, r3, #2
 	ldr	r2, [r7, #4]
@@ -1054,25 +1063,25 @@ uinttofloat:
 	fconsts	s14, #240
 	fcmpes	s15, s14
 	fmstat
-	bpl	.L37
-	.loc 3 234 0 is_stmt 0 discriminator 1
+	bpl	.L38
+	.loc 3 239 0 is_stmt 0 discriminator 1
 	ldr	r3, [r7, #12]
 	lsls	r3, r3, #2
 	ldr	r2, [r7, #4]
 	add	r3, r3, r2
-	ldr	r2, .L42+4
+	ldr	r2, .L43+4
 	str	r2, [r3]	@ float
-.L37:
-	.loc 3 230 0 is_stmt 1 discriminator 2
+.L38:
+	.loc 3 235 0 is_stmt 1 discriminator 2
 	ldr	r3, [r7, #12]
 	adds	r3, r3, #1
 	str	r3, [r7, #12]
-.L34:
-	.loc 3 230 0 is_stmt 0 discriminator 1
+.L35:
+	.loc 3 235 0 is_stmt 0 discriminator 1
 	ldr	r3, [r7, #12]
 	cmp	r3, #8192
-	blt	.L39
-	.loc 3 236 0 is_stmt 1
+	blt	.L40
+	.loc 3 241 0 is_stmt 1
 	adds	r7, r7, #20
 	.cfi_def_cfa_offset 4
 	mov	sp, r7
@@ -1082,9 +1091,9 @@ uinttofloat:
 	.cfi_restore 7
 	.cfi_def_cfa_offset 0
 	bx	lr
-.L43:
+.L44:
 	.align	2
-.L42:
+.L43:
 	.word	1191182336
 	.word	-1082130432
 	.cfi_endproc
@@ -2760,7 +2769,7 @@ uinttofloat:
 	.uleb128 0x26
 	.4byte	.LASF15037
 	.byte	0x3
-	.byte	0x52
+	.byte	0x53
 	.4byte	0x8d
 	.4byte	.LFB283
 	.4byte	.LFE283-.LFB283
@@ -2769,7 +2778,7 @@ uinttofloat:
 	.uleb128 0x27
 	.4byte	.LASF15010
 	.byte	0x3
-	.byte	0x79
+	.byte	0x7b
 	.4byte	.LFB284
 	.4byte	.LFE284-.LFB284
 	.uleb128 0x1
@@ -2778,7 +2787,7 @@ uinttofloat:
 	.uleb128 0x28
 	.ascii	"fft\000"
 	.byte	0x3
-	.byte	0x7c
+	.byte	0x7e
 	.4byte	0x8d
 	.uleb128 0x18
 	.byte	0
@@ -2786,7 +2795,7 @@ uinttofloat:
 	.uleb128 0x29
 	.4byte	.LASF15008
 	.byte	0x3
-	.byte	0x82
+	.byte	0x84
 	.4byte	.LFB285
 	.4byte	.LFE285-.LFB285
 	.uleb128 0x1
@@ -2794,7 +2803,7 @@ uinttofloat:
 	.uleb128 0x29
 	.4byte	.LASF15009
 	.byte	0x3
-	.byte	0x8e
+	.byte	0x90
 	.4byte	.LFB286
 	.4byte	.LFE286-.LFB286
 	.uleb128 0x1
@@ -2802,7 +2811,7 @@ uinttofloat:
 	.uleb128 0x27
 	.4byte	.LASF15011
 	.byte	0x3
-	.byte	0x9a
+	.byte	0x9e
 	.4byte	.LFB287
 	.4byte	.LFE287-.LFB287
 	.uleb128 0x1
@@ -2811,7 +2820,7 @@ uinttofloat:
 	.uleb128 0x2a
 	.4byte	.LASF15012
 	.byte	0x3
-	.byte	0x9e
+	.byte	0xa2
 	.4byte	0xc16
 	.uleb128 0x2
 	.byte	0x91
@@ -2819,7 +2828,7 @@ uinttofloat:
 	.uleb128 0x2a
 	.4byte	.LASF15013
 	.byte	0x3
-	.byte	0xa2
+	.byte	0xa6
 	.4byte	0xa6
 	.uleb128 0x2
 	.byte	0x91
@@ -2827,7 +2836,7 @@ uinttofloat:
 	.uleb128 0x2a
 	.4byte	.LASF14989
 	.byte	0x3
-	.byte	0xa4
+	.byte	0xa8
 	.4byte	0xbc
 	.uleb128 0x2
 	.byte	0x91
@@ -2836,7 +2845,7 @@ uinttofloat:
 	.uleb128 0x2b
 	.4byte	.LASF15038
 	.byte	0x3
-	.byte	0xd7
+	.byte	0xdb
 	.4byte	.LFB288
 	.4byte	.LFE288-.LFB288
 	.uleb128 0x1
@@ -2845,7 +2854,7 @@ uinttofloat:
 	.uleb128 0x2c
 	.ascii	"i\000"
 	.byte	0x3
-	.byte	0xd9
+	.byte	0xdd
 	.4byte	0x8d
 	.uleb128 0x2
 	.byte	0x91
@@ -2854,7 +2863,7 @@ uinttofloat:
 	.uleb128 0x2d
 	.4byte	.LASF15014
 	.byte	0x3
-	.byte	0xe3
+	.byte	0xe8
 	.4byte	.LFB289
 	.4byte	.LFE289-.LFB289
 	.uleb128 0x1
@@ -2863,7 +2872,7 @@ uinttofloat:
 	.uleb128 0x2e
 	.4byte	.LASF15015
 	.byte	0x3
-	.byte	0xe3
+	.byte	0xe8
 	.4byte	0xec2
 	.uleb128 0x2
 	.byte	0x91
@@ -2871,7 +2880,7 @@ uinttofloat:
 	.uleb128 0x2e
 	.4byte	.LASF15016
 	.byte	0x3
-	.byte	0xe3
+	.byte	0xe8
 	.4byte	0xb93
 	.uleb128 0x2
 	.byte	0x91
@@ -2879,7 +2888,7 @@ uinttofloat:
 	.uleb128 0x2c
 	.ascii	"i\000"
 	.byte	0x3
-	.byte	0xe5
+	.byte	0xea
 	.4byte	0x8d
 	.uleb128 0x2
 	.byte	0x91
@@ -2931,7 +2940,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15022
 	.byte	0x3
-	.byte	0x2f
+	.byte	0x30
 	.4byte	0xf10
 	.uleb128 0x5
 	.byte	0x3
@@ -2946,7 +2955,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15023
 	.byte	0x3
-	.byte	0x30
+	.byte	0x31
 	.4byte	0xf31
 	.uleb128 0x5
 	.byte	0x3
@@ -2961,7 +2970,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15024
 	.byte	0x3
-	.byte	0x31
+	.byte	0x32
 	.4byte	0xf52
 	.uleb128 0x5
 	.byte	0x3
@@ -2976,7 +2985,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15025
 	.byte	0x3
-	.byte	0x34
+	.byte	0x35
 	.4byte	0xf73
 	.uleb128 0x5
 	.byte	0x3
@@ -2991,7 +3000,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15026
 	.byte	0x3
-	.byte	0x36
+	.byte	0x37
 	.4byte	0xf95
 	.uleb128 0x5
 	.byte	0x3
@@ -2999,7 +3008,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15027
 	.byte	0x3
-	.byte	0x38
+	.byte	0x39
 	.4byte	0xbc
 	.uleb128 0x5
 	.byte	0x3
@@ -3007,7 +3016,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15028
 	.byte	0x3
-	.byte	0x3a
+	.byte	0x3b
 	.4byte	0xec8
 	.uleb128 0x5
 	.byte	0x3
@@ -3022,7 +3031,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15029
 	.byte	0x3
-	.byte	0x3c
+	.byte	0x3d
 	.4byte	0xfd9
 	.uleb128 0x5
 	.byte	0x3
@@ -3030,7 +3039,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15030
 	.byte	0x3
-	.byte	0x48
+	.byte	0x49
 	.4byte	0xc21
 	.uleb128 0x5
 	.byte	0x3
@@ -58229,6 +58238,8 @@ uinttofloat:
 	.ascii	"ID_Pos)\000"
 .LASF8551:
 	.ascii	"USBHS_DEVIER_PEP_3 (0x1u << 15)\000"
+.LASF14796:
+	.ascii	"I2S_BITRATE (8000 * 32)\000"
 .LASF7329:
 	.ascii	"SSC_IER_CP0 (0x1u << 8)\000"
 .LASF9594:
@@ -58994,10 +59005,6 @@ uinttofloat:
 	.ascii	"PIO_ABCDSR_P7 (0x1u << 7)\000"
 .LASF10449:
 	.ascii	"REG_GMAC_NSR (*(__I uint32_t*)0x40050008U)\000"
-.LASF14801:
-	.ascii	"SSC_RFMR_CONFIG (SSC_RFMR_DATLEN(15) | SSC_RFMR_MSB"
-	.ascii	"F | SSC_RFMR_FSLEN(15) | SSC_TFMR_FSOS_NONE | SSC_T"
-	.ascii	"FMR_FSEDGE_POSITIVE)\000"
 .LASF14602:
 	.ascii	"S_IXUSR 0000100\000"
 .LASF6626:
@@ -66228,11 +66235,6 @@ uinttofloat:
 	.ascii	"GMII_PHYID2R 0x3\000"
 .LASF5909:
 	.ascii	"PMC_SLPWK_ASR0_PID10 (0x1u << 10)\000"
-.LASF14800:
-	.ascii	"SSC_RCMR_CONFIG (SSC_RCMR_CKS_TK | SSC_RCMR_CKO_NON"
-	.ascii	"E | SSC_RCMR_CKI | SSC_RCMR_CKG_CONTINUOUS | SSC_RC"
-	.ascii	"MR_START_RF_EDGE | SSC_RCMR_STTDLY(1) | SSC_RCMR_PE"
-	.ascii	"RIOD(0))\000"
 .LASF9910:
 	.ascii	"REG_TC2_RAB2 (*(__I uint32_t*)0x4001408CU)\000"
 .LASF5848:
@@ -66255,8 +66257,6 @@ uinttofloat:
 	.ascii	"REG_PIOB_WPSR (*(__I uint32_t*)0x400E10E8U)\000"
 .LASF2640:
 	.ascii	"_SAMV71_ICM_COMPONENT_ \000"
-.LASF14796:
-	.ascii	"I2S_BITRATE (8000)\000"
 .LASF11073:
 	.ascii	"REG_XDMAC_CSUS12 (*(__IO uint32_t*)0x40078380U)\000"
 .LASF8935:
@@ -80482,6 +80482,10 @@ uinttofloat:
 	.ascii	"__DEC128_MANT_DIG__ 34\000"
 .LASF5699:
 	.ascii	"PMC_FSMR_LPM (0x1u << 20)\000"
+.LASF14800:
+	.ascii	"SSC_RCMR_CONFIG (SSC_RCMR_CKS_MCK | SSC_RCMR_CKO_NO"
+	.ascii	"NE | SSC_RCMR_CKG_CONTINUOUS | SSC_RCMR_START_RF_ED"
+	.ascii	"GE | SSC_RCMR_STTDLY(1) | SSC_RCMR_PERIOD(0))\000"
 .LASF12620:
 	.ascii	"_DEFUN_VOID(name) name(_NOARGS)\000"
 .LASF8858:
@@ -81890,6 +81894,9 @@ uinttofloat:
 	.ascii	"REG_PWM0_DT2 (*(__IO uint32_t*)0x40020258U)\000"
 .LASF12593:
 	.ascii	"_WIDE_ORIENT 1\000"
+.LASF14801:
+	.ascii	"SSC_RFMR_CONFIG (SSC_RFMR_DATLEN(15) | SSC_RFMR_MSB"
+	.ascii	"F | SSC_TFMR_FSOS_NONE | SSC_TFMR_FSEDGE_POSITIVE)\000"
 .LASF8697:
 	.ascii	"USBHS_DEVEPTIMR_EPDISHDMA (0x1u << 16)\000"
 .LASF7030:

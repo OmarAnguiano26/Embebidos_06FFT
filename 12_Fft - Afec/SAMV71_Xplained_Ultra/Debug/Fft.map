@@ -4425,14 +4425,8 @@ Discarded input sections
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
- .text          0x00000000       0xa8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .data          0x00000000        0x0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .bss           0x00000000        0x5 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
- .debug_info    0x00000000      0x1fd C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
- .debug_abbrev  0x00000000       0xdf C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
- .debug_aranges
-                0x00000000       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
- .debug_macro   0x00000000     0x111c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .debug_macro   0x00000000       0x22 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .debug_macro   0x00000000       0x44 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .debug_macro   0x00000000       0xe3 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
@@ -4594,12 +4588,6 @@ Discarded input sections
  .debug_macro   0x00000000       0x6f C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .debug_macro   0x00000000       0xa0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .debug_macro   0x00000000       0x10 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
- .debug_line    0x00000000      0xe0d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
- .debug_str     0x00000000    0x75d4f C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
- .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
- .debug_frame   0x00000000       0xd8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
- .ARM.attributes
-                0x00000000       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
@@ -9545,14 +9533,8 @@ Discarded input sections
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
- .text          0x00000000      0x158 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .data          0x00000000        0x0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .bss           0x00000000        0x5 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
- .debug_info    0x00000000      0x88e C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
- .debug_abbrev  0x00000000      0x191 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
- .debug_aranges
-                0x00000000       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
- .debug_macro   0x00000000     0x12fb C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .debug_macro   0x00000000       0x22 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .debug_macro   0x00000000       0x44 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .debug_macro   0x00000000       0xe3 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
@@ -9736,12 +9718,6 @@ Discarded input sections
  .debug_macro   0x00000000      0x44f C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .debug_macro   0x00000000       0x3a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .debug_macro   0x00000000       0x10 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
- .debug_line    0x00000000     0x1118 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
- .debug_str     0x00000000    0x81fef C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
- .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
- .debug_frame   0x00000000      0x10c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
- .ARM.attributes
-                0x00000000       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\SchM_Cfg.o
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\SchM_Cfg.o
  .group         0x00000000        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\SchM_Cfg.o
@@ -11573,7 +11549,7 @@ LOAD C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a
                 0x00001000                HEAP_SIZE = DEFINED (HEAP_SIZE)?HEAP_SIZE:0x1000
                 0x00001000                heap_memsize = DEFINED (heap_memsize)?heap_memsize:0x1000
 
-.code_TCM       0x00000000        0x0 load address 0x00445180
+.code_TCM       0x00000000        0x0 load address 0x00445390
                 0x00000000                _sitcm = .
  *(.itcm_code .itcm_code.*)
                 0x00000000                _eitcm = .
@@ -11589,7 +11565,7 @@ LOAD C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a
  *fill*         0x20000000     0x4000 
                 0x20004000                _edtcm_stack = .
 
-.text           0x00400000    0x45178
+.text           0x00400000    0x45388
                 0x00400000                . = ALIGN (0x4)
                 0x00400000                _sfixed = .
  *(.vectors .vectors.*)
@@ -11758,641 +11734,651 @@ LOAD C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a
                 0x0040297c                LED_Set
                 0x004029e0                LED_Clear
                 0x00402a44                LED_Toggle
- .text          0x00402aac      0x76c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
-                0x00402b80                PMC_EnablePeripheral
-                0x00402c10                PMC_DisablePeripheral
-                0x00402ca0                PMC_EnableAllPeripherals
-                0x00402ce0                PMC_DisableAllPeripherals
-                0x00402d1c                PMC_IsPeriphEnabled
-                0x00402d78                PMC_EnableExtOsc
-                0x00402df4                PMC_DisableExtOsc
-                0x00402e30                PMC_SelectExtOsc
-                0x00402e9c                PMC_SelectExtBypassOsc
-                0x00402f08                PMC_EnableIntRC4_8_12MHz
-                0x00402f94                PMC_DisableIntRC4_8_12MHz
-                0x00402fd8                PMC_SetPllaClock
-                0x00403030                PMC_SetMckSelection
-                0x00403074                PMC_DisableAllClocks
-                0x004030c4                PMC_ConfigureMckWithPlla
-                0x004030fc                PMC_EnableXT32KFME
-                0x00403128                PMC_ConfigurePCK0
-                0x00403178                PMC_ConfigurePCK1
-                0x004031c8                PMC_ConfigurePCK2
- .text          0x00403218      0x540 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
-                0x00403488                PIO_Configure
-                0x004035ec                PIO_Set
-                0x00403608                PIO_Clear
-                0x00403624                PIO_Get
-                0x0040366c                PIO_GetOutputDataStatus
-                0x00403698                PIO_SetDebounceFilter
-                0x004036d4                PIO_EnableWriteProtect
-                0x004036f8                PIO_DisableWriteProtect
-                0x0040371c                PIO_GetWriteProtectViolationInfo
-                0x0040373c                PIO_SetPinType
- .text          0x00403758      0x4ac C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
-                0x00403844                PioInterruptHandler
-                0x004038f4                PIOA_Handler
-                0x00403908                PIOB_Handler
-                0x0040391c                PIOC_Handler
-                0x00403930                PIOD_Handler
-                0x00403944                PIOE_Handler
-                0x00403958                PIO_InitializeInterrupts
-                0x00403a60                PIO_ConfigureIt
-                0x00403b3c                PIO_EnableIt
-                0x00403bcc                PIO_DisableIt
- .text          0x00403c04       0xe8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
-                0x00403c04                NMI_Handler
-                0x00403c8c                HardFault_Handler
-                0x00403ca0                MemManage_Handler
-                0x00403cb8                BusFault_Handler
-                0x00403cd4                UsageFault_Handler
- .text          0x00403cec       0xf0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
-                0x00403cec                MPU_Enable
-                0x00403d08                MPU_SetRegionNum
-                0x00403d24                MPU_DisableRegion
-                0x00403d40                MPU_SetRegion
-                0x00403d64                MPU_CalMPURegionSize
-                0x00403da4                MPU_UpdateRegions
- .text          0x00403ddc      0xdbc C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
-                0x0040411c                ASYNC_IsFinished
-                0x00404140                TWID_Initialize
-                0x00404190                TWID_Handler
-                0x004042d8                TWID_Read
-                0x00404474                TWID_Write
-                0x00404618                TWID_DmaInitialize
-                0x004046bc                TWID_DmaRead
-                0x0040493c                TWID_DmaWrite
- .text          0x00404b98      0x1a0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
-                0x00404b98                SSC_Configure
-                0x00404bd8                SSC_ConfigureTransmitter
-                0x00404bfc                SSC_ConfigureReceiver
-                0x00404c20                SSC_EnableTransmitter
-                0x00404c3c                SSC_DisableTransmitter
-                0x00404c58                SSC_EnableReceiver
-                0x00404c70                SSC_DisableReceiver
-                0x00404c88                SSC_EnableInterrupts
-                0x00404ca4                SSC_DisableInterrupts
-                0x00404cc0                SSC_Write
-                0x00404ce8                SSC_Read
-                0x00404d10                SSC_IsRxReady
- .text          0x00404d38      0x520 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
-                0x00404d38                TWI_ConfigureMaster
-                0x00404df0                TWI_ConfigureSlave
-                0x00404e7c                TWI_Stop
-                0x00404eb0                TWI_StartRead
-                0x00404f5c                TWI_ReadByte
-                0x00404f90                TWI_WriteByte
-                0x00404fc8                TWI_StartWrite
-                0x0040507c                TWI_ByteReceived
-                0x004050a4                TWI_ByteSent
-                0x004050cc                TWI_TransferComplete
-                0x004050f4                TWI_EnableIt
-                0x0040514c                TWI_DisableIt
-                0x004051a4                TWI_GetStatus
-                0x004051d8                TWI_GetMaskedStatus
-                0x0040521c                TWI_SendSTOPCondition
- .text          0x00405258      0x318 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
-                0x004052f0                SysTick_Handler
-                0x0040536c                SetTimeEvent
-                0x00405388                TimeTick_Configure
-                0x00405434                GetDelayInTicks
-                0x00405480                GetTicks
-                0x004054b4                Wait
-                0x00405510                Sleep
- .text          0x00405570      0x570 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
-                0x0040564c                main
-                0x004056d4                fft_process
-                0x00405720                I2C_Init
-                0x0040576c                I2S_Init
-                0x004057cc                CODEC_Init
-                0x004059ec                I2S_AudioRecord
-                0x00405a38                uinttofloat
- .text          0x00405ae0       0xec C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
-                0x00405ae0                LedCtrl_Configure
-                0x00405af4                LedCtrl_BlinkingPattern
-                0x00405ba8                LedCtrl_ToogleBlinkingPattern
- .text          0x00405bcc       0x7c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
-                0x00405c10                ButtonCtrl_ConfigureSW0Button
- .text          0x00405c48       0xa0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
-                0x00405cb8                Fpu_Enable
- .text          0x00405ce8      0x12c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
-                0x00405ce8                arm_max_f32
- .text          0x00405e14       0xe0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
-                0x00405e14                fft
- .text          0x00405ef4       0xc0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
-                0x00405ef4                arm_bitreversal_32
-                0x00405f5e                arm_bitreversal_16
- .text          0x00405fb4     0x11a0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
-                0x00405fb4                arm_cfft_radix8by2_f32
-                0x004063a4                arm_cfft_radix8by4_f32
-                0x00407008                arm_cfft_f32
- .text          0x00407154     0x1008 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
-                0x00407154                arm_radix8_butterfly_f32
- .text          0x0040815c      0x1d8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
-                0x004081b4                arm_cmplx_mag_f32
- .text.sqrtf    0x00408334      0x130 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-wf_sqrt.o)
-                0x00408334                sqrtf
+ .text          0x00402aac       0xa8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
+                0x00402aac                WDT_Enable
+                0x00402ac8                WDT_Disable
+                0x00402ae4                WDT_Restart
+                0x00402b00                WDT_GetStatus
+                0x00402b1c                WDT_GetPeriod
+ .text          0x00402b54      0x76c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
+                0x00402c28                PMC_EnablePeripheral
+                0x00402cb8                PMC_DisablePeripheral
+                0x00402d48                PMC_EnableAllPeripherals
+                0x00402d88                PMC_DisableAllPeripherals
+                0x00402dc4                PMC_IsPeriphEnabled
+                0x00402e20                PMC_EnableExtOsc
+                0x00402e9c                PMC_DisableExtOsc
+                0x00402ed8                PMC_SelectExtOsc
+                0x00402f44                PMC_SelectExtBypassOsc
+                0x00402fb0                PMC_EnableIntRC4_8_12MHz
+                0x0040303c                PMC_DisableIntRC4_8_12MHz
+                0x00403080                PMC_SetPllaClock
+                0x004030d8                PMC_SetMckSelection
+                0x0040311c                PMC_DisableAllClocks
+                0x0040316c                PMC_ConfigureMckWithPlla
+                0x004031a4                PMC_EnableXT32KFME
+                0x004031d0                PMC_ConfigurePCK0
+                0x00403220                PMC_ConfigurePCK1
+                0x00403270                PMC_ConfigurePCK2
+ .text          0x004032c0      0x540 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
+                0x00403530                PIO_Configure
+                0x00403694                PIO_Set
+                0x004036b0                PIO_Clear
+                0x004036cc                PIO_Get
+                0x00403714                PIO_GetOutputDataStatus
+                0x00403740                PIO_SetDebounceFilter
+                0x0040377c                PIO_EnableWriteProtect
+                0x004037a0                PIO_DisableWriteProtect
+                0x004037c4                PIO_GetWriteProtectViolationInfo
+                0x004037e4                PIO_SetPinType
+ .text          0x00403800      0x4ac C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
+                0x004038ec                PioInterruptHandler
+                0x0040399c                PIOA_Handler
+                0x004039b0                PIOB_Handler
+                0x004039c4                PIOC_Handler
+                0x004039d8                PIOD_Handler
+                0x004039ec                PIOE_Handler
+                0x00403a00                PIO_InitializeInterrupts
+                0x00403b08                PIO_ConfigureIt
+                0x00403be4                PIO_EnableIt
+                0x00403c74                PIO_DisableIt
+ .text          0x00403cac       0xe8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
+                0x00403cac                NMI_Handler
+                0x00403d34                HardFault_Handler
+                0x00403d48                MemManage_Handler
+                0x00403d60                BusFault_Handler
+                0x00403d7c                UsageFault_Handler
+ .text          0x00403d94       0xf0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
+                0x00403d94                MPU_Enable
+                0x00403db0                MPU_SetRegionNum
+                0x00403dcc                MPU_DisableRegion
+                0x00403de8                MPU_SetRegion
+                0x00403e0c                MPU_CalMPURegionSize
+                0x00403e4c                MPU_UpdateRegions
+ .text          0x00403e84      0xdbc C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
+                0x004041c4                ASYNC_IsFinished
+                0x004041e8                TWID_Initialize
+                0x00404238                TWID_Handler
+                0x00404380                TWID_Read
+                0x0040451c                TWID_Write
+                0x004046c0                TWID_DmaInitialize
+                0x00404764                TWID_DmaRead
+                0x004049e4                TWID_DmaWrite
+ .text          0x00404c40      0x1a0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
+                0x00404c40                SSC_Configure
+                0x00404c80                SSC_ConfigureTransmitter
+                0x00404ca4                SSC_ConfigureReceiver
+                0x00404cc8                SSC_EnableTransmitter
+                0x00404ce4                SSC_DisableTransmitter
+                0x00404d00                SSC_EnableReceiver
+                0x00404d18                SSC_DisableReceiver
+                0x00404d30                SSC_EnableInterrupts
+                0x00404d4c                SSC_DisableInterrupts
+                0x00404d68                SSC_Write
+                0x00404d90                SSC_Read
+                0x00404db8                SSC_IsRxReady
+ .text          0x00404de0      0x520 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
+                0x00404de0                TWI_ConfigureMaster
+                0x00404e98                TWI_ConfigureSlave
+                0x00404f24                TWI_Stop
+                0x00404f58                TWI_StartRead
+                0x00405004                TWI_ReadByte
+                0x00405038                TWI_WriteByte
+                0x00405070                TWI_StartWrite
+                0x00405124                TWI_ByteReceived
+                0x0040514c                TWI_ByteSent
+                0x00405174                TWI_TransferComplete
+                0x0040519c                TWI_EnableIt
+                0x004051f4                TWI_DisableIt
+                0x0040524c                TWI_GetStatus
+                0x00405280                TWI_GetMaskedStatus
+                0x004052c4                TWI_SendSTOPCondition
+ .text          0x00405300      0x318 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
+                0x00405398                SysTick_Handler
+                0x00405414                SetTimeEvent
+                0x00405430                TimeTick_Configure
+                0x004054dc                GetDelayInTicks
+                0x00405528                GetTicks
+                0x0040555c                Wait
+                0x004055b8                Sleep
+ .text          0x00405618      0x580 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+                0x004056f4                main
+                0x00405784                fft_process
+                0x004057d0                I2C_Init
+                0x0040581c                I2S_Init
+                0x00405884                CODEC_Init
+                0x00405aa4                I2S_AudioRecord
+                0x00405af0                uinttofloat
+ .text          0x00405b98       0xec C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
+                0x00405b98                LedCtrl_Configure
+                0x00405bac                LedCtrl_BlinkingPattern
+                0x00405c60                LedCtrl_ToogleBlinkingPattern
+ .text          0x00405c84       0x7c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+                0x00405cc8                ButtonCtrl_ConfigureSW0Button
+ .text          0x00405d00      0x158 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
+                0x00405dec                Wdg_Init
+                0x00405e38                Wdg_Restart
+                0x00405e48                Wdg_Disable
+ .text          0x00405e58       0xa0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
+                0x00405ec8                Fpu_Enable
+ .text          0x00405ef8      0x12c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+                0x00405ef8                arm_max_f32
+ .text          0x00406024       0xe0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
+                0x00406024                fft
+ .text          0x00406104       0xc0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
+                0x00406104                arm_bitreversal_32
+                0x0040616e                arm_bitreversal_16
+ .text          0x004061c4     0x11a0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
+                0x004061c4                arm_cfft_radix8by2_f32
+                0x004065b4                arm_cfft_radix8by4_f32
+                0x00407218                arm_cfft_f32
+ .text          0x00407364     0x1008 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
+                0x00407364                arm_radix8_butterfly_f32
+ .text          0x0040836c      0x1d8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
+                0x004083c4                arm_cmplx_mag_f32
+ .text.sqrtf    0x00408544      0x130 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-wf_sqrt.o)
+                0x00408544                sqrtf
  .text.__ieee754_sqrtf
-                0x00408464      0x104 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-ef_sqrt.o)
-                0x00408464                __ieee754_sqrtf
- .text.matherr  0x00408568        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-s_matherr.o)
-                0x00408568                matherr
+                0x00408674      0x104 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-ef_sqrt.o)
+                0x00408674                __ieee754_sqrtf
+ .text.matherr  0x00408778        0x8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-s_matherr.o)
+                0x00408778                matherr
  .text.__fpclassifyf
-                0x00408570       0x58 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-sf_fpclassify.o)
-                0x00408570                __fpclassifyf
+                0x00408780       0x58 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-sf_fpclassify.o)
+                0x00408780                __fpclassifyf
  .text.__assert_func
-                0x004085c8       0x3c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-assert.o)
-                0x004085c8                __assert_func
- .text.__errno  0x00408604        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-errno.o)
-                0x00408604                __errno
+                0x004087d8       0x3c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-assert.o)
+                0x004087d8                __assert_func
+ .text.__errno  0x00408814        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-errno.o)
+                0x00408814                __errno
  .text.fiprintf
-                0x00408610       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fiprintf.o)
-                0x00408610                fiprintf
- .text          0x00408638      0x134 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memcpy.o)
-                0x00408638                memcpy
- .text.printf   0x0040876c       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-printf.o)
-                0x0040876c                printf
- .text.putchar  0x00408794       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putchar.o)
-                0x00408794                putchar
- .text.setvbuf  0x004087a4       0xfc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-setvbuf.o)
-                0x004087a4                setvbuf
+                0x00408820       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fiprintf.o)
+                0x00408820                fiprintf
+ .text          0x00408848      0x134 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memcpy.o)
+                0x00408848                memcpy
+ .text.printf   0x0040897c       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-printf.o)
+                0x0040897c                printf
+ .text.putchar  0x004089a4       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putchar.o)
+                0x004089a4                putchar
+ .text.setvbuf  0x004089b4       0xfc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-setvbuf.o)
+                0x004089b4                setvbuf
  .text.__sprint_r.part.0
-                0x004088a0       0x78 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
+                0x00408ab0       0x78 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
  .text.__sprint_r
-                0x00408918       0x18 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
-                0x00408918                __sprint_r
+                0x00408b28       0x18 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
+                0x00408b28                __sprint_r
  .text._vfiprintf_r
-                0x00408930      0xbf4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
-                0x00408930                _vfiprintf_r
+                0x00408b40      0xbf4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
+                0x00408b40                _vfiprintf_r
  .text.__sbprintf
-                0x00409524       0x80 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
- *fill*         0x004095a4        0x4 
+                0x00409734       0x80 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
+ *fill*         0x004097b4        0x4 
  .text._vfprintf_r
-                0x004095a8     0x1530 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
-                0x004095a8                _vfprintf_r
+                0x004097b8     0x1530 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
+                0x004097b8                _vfprintf_r
  .text.__sbprintf
-                0x0040aad8       0x80 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
+                0x0040ace8       0x80 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
  .text.__swsetup_r
-                0x0040ab58       0xc4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wsetup.o)
-                0x0040ab58                __swsetup_r
- .text.abort    0x0040ac1c       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-abort.o)
-                0x0040ac1c                abort
- .text.quorem   0x0040ac2c      0x140 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-dtoa.o)
- *fill*         0x0040ad6c        0x4 
- .text._dtoa_r  0x0040ad70      0xcb4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-dtoa.o)
-                0x0040ad70                _dtoa_r
+                0x0040ad68       0xc4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wsetup.o)
+                0x0040ad68                __swsetup_r
+ .text.abort    0x0040ae2c       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-abort.o)
+                0x0040ae2c                abort
+ .text.quorem   0x0040ae3c      0x140 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-dtoa.o)
+ *fill*         0x0040af7c        0x4 
+ .text._dtoa_r  0x0040af80      0xcb4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-dtoa.o)
+                0x0040af80                _dtoa_r
  .text.__sflush_r
-                0x0040ba24      0x148 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fflush.o)
-                0x0040ba24                __sflush_r
+                0x0040bc34      0x148 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fflush.o)
+                0x0040bc34                __sflush_r
  .text._fflush_r
-                0x0040bb6c       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fflush.o)
-                0x0040bb6c                _fflush_r
+                0x0040bd7c       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fflush.o)
+                0x0040bd7c                _fflush_r
  .text._cleanup_r
-                0x0040bb98        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
-                0x0040bb98                _cleanup_r
+                0x0040bda8        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
+                0x0040bda8                _cleanup_r
  .text.__sinit.part.1
-                0x0040bba4       0xfc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
- .text.__sinit  0x0040bca0        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
-                0x0040bca0                __sinit
+                0x0040bdb4       0xfc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
+ .text.__sinit  0x0040beb0        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
+                0x0040beb0                __sinit
  .text.__sfp_lock_acquire
-                0x0040bcac        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
-                0x0040bcac                __sfp_lock_acquire
+                0x0040bebc        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
+                0x0040bebc                __sfp_lock_acquire
  .text.__sfp_lock_release
-                0x0040bcb0        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
-                0x0040bcb0                __sfp_lock_release
+                0x0040bec0        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
+                0x0040bec0                __sfp_lock_release
  .text.__fputwc
-                0x0040bcb4       0xb0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fputwc.o)
-                0x0040bcb4                __fputwc
+                0x0040bec4       0xb0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fputwc.o)
+                0x0040bec4                __fputwc
  .text._fputwc_r
-                0x0040bd64       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fputwc.o)
-                0x0040bd64                _fputwc_r
+                0x0040bf74       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fputwc.o)
+                0x0040bf74                _fputwc_r
  .text._malloc_trim_r
-                0x0040bd88       0x9c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-freer.o)
-                0x0040bd88                _malloc_trim_r
- .text._free_r  0x0040be24      0x1b0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-freer.o)
-                0x0040be24                _free_r
+                0x0040bf98       0x9c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-freer.o)
+                0x0040bf98                _malloc_trim_r
+ .text._free_r  0x0040c034      0x1b0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-freer.o)
+                0x0040c034                _free_r
  .text.__sfvwrite_r
-                0x0040bfd4      0x324 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fvwrite.o)
-                0x0040bfd4                __sfvwrite_r
+                0x0040c1e4      0x324 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fvwrite.o)
+                0x0040c1e4                __sfvwrite_r
  .text._fwalk_reent
-                0x0040c2f8       0x50 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fwalk.o)
-                0x0040c2f8                _fwalk_reent
+                0x0040c508       0x50 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fwalk.o)
+                0x0040c508                _fwalk_reent
  .text.__locale_charset
-                0x0040c348        0x8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
-                0x0040c348                __locale_charset
+                0x0040c558        0x8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
+                0x0040c558                __locale_charset
  .text.__locale_mb_cur_max
-                0x0040c350        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
-                0x0040c350                __locale_mb_cur_max
+                0x0040c560        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
+                0x0040c560                __locale_mb_cur_max
  .text._localeconv_r
-                0x0040c35c        0x8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
-                0x0040c35c                _localeconv_r
+                0x0040c56c        0x8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
+                0x0040c56c                _localeconv_r
  .text.__smakebuf_r
-                0x0040c364       0xe4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-makebuf.o)
-                0x0040c364                __smakebuf_r
- .text.malloc   0x0040c448       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-malloc.o)
-                0x0040c448                malloc
+                0x0040c574       0xe4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-makebuf.o)
+                0x0040c574                __smakebuf_r
+ .text.malloc   0x0040c658       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-malloc.o)
+                0x0040c658                malloc
  .text._malloc_r
-                0x0040c458      0x558 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mallocr.o)
-                0x0040c458                _malloc_r
- .text.memchr   0x0040c9b0       0x90 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memchr.o)
-                0x0040c9b0                memchr
- .text.memmove  0x0040ca40       0xc4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memmove.o)
-                0x0040ca40                memmove
- .text.memset   0x0040cb04       0xa0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memset.o)
-                0x0040cb04                memset
+                0x0040c668      0x558 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mallocr.o)
+                0x0040c668                _malloc_r
+ .text.memchr   0x0040cbc0       0x90 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memchr.o)
+                0x0040cbc0                memchr
+ .text.memmove  0x0040cc50       0xc4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memmove.o)
+                0x0040cc50                memmove
+ .text.memset   0x0040cd14       0xa0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memset.o)
+                0x0040cd14                memset
  .text.__malloc_lock
-                0x0040cba4        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mlock.o)
-                0x0040cba4                __malloc_lock
+                0x0040cdb4        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mlock.o)
+                0x0040cdb4                __malloc_lock
  .text.__malloc_unlock
-                0x0040cba8        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mlock.o)
-                0x0040cba8                __malloc_unlock
- .text._Balloc  0x0040cbac       0x50 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040cbac                _Balloc
- .text._Bfree   0x0040cbfc       0x14 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040cbfc                _Bfree
+                0x0040cdb8        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mlock.o)
+                0x0040cdb8                __malloc_unlock
+ .text._Balloc  0x0040cdbc       0x50 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040cdbc                _Balloc
+ .text._Bfree   0x0040ce0c       0x14 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040ce0c                _Bfree
  .text.__multadd
-                0x0040cc10       0x84 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040cc10                __multadd
+                0x0040ce20       0x84 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040ce20                __multadd
  .text.__hi0bits
-                0x0040cc94       0x44 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040cc94                __hi0bits
+                0x0040cea4       0x44 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040cea4                __hi0bits
  .text.__lo0bits
-                0x0040ccd8       0x64 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040ccd8                __lo0bits
- .text.__i2b    0x0040cd3c       0x14 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040cd3c                __i2b
+                0x0040cee8       0x64 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040cee8                __lo0bits
+ .text.__i2b    0x0040cf4c       0x14 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040cf4c                __i2b
  .text.__multiply
-                0x0040cd50      0x144 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040cd50                __multiply
+                0x0040cf60      0x144 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040cf60                __multiply
  .text.__pow5mult
-                0x0040ce94       0xa0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040ce94                __pow5mult
+                0x0040d0a4       0xa0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040d0a4                __pow5mult
  .text.__lshift
-                0x0040cf34       0xb4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040cf34                __lshift
- .text.__mcmp   0x0040cfe8       0x48 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040cfe8                __mcmp
- .text.__mdiff  0x0040d030       0xe4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040d030                __mdiff
- .text.__d2b    0x0040d114       0xb8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x0040d114                __d2b
- .text._putc_r  0x0040d1cc       0x58 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putc.o)
-                0x0040d1cc                _putc_r
+                0x0040d144       0xb4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040d144                __lshift
+ .text.__mcmp   0x0040d1f8       0x48 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040d1f8                __mcmp
+ .text.__mdiff  0x0040d240       0xe4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040d240                __mdiff
+ .text.__d2b    0x0040d324       0xb8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x0040d324                __d2b
+ .text._putc_r  0x0040d3dc       0x58 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putc.o)
+                0x0040d3dc                _putc_r
  .text._realloc_r
-                0x0040d224      0x3f0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-reallocr.o)
-                0x0040d224                _realloc_r
+                0x0040d434      0x3f0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-reallocr.o)
+                0x0040d434                _realloc_r
  .text.__fpclassifyd
-                0x0040d614       0x44 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-s_fpclassify.o)
-                0x0040d614                __fpclassifyd
- .text._sbrk_r  0x0040d658       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-sbrkr.o)
-                0x0040d658                _sbrk_r
+                0x0040d824       0x44 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-s_fpclassify.o)
+                0x0040d824                __fpclassifyd
+ .text._sbrk_r  0x0040d868       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-sbrkr.o)
+                0x0040d868                _sbrk_r
  .text._raise_r
-                0x0040d67c       0x58 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signal.o)
-                0x0040d67c                _raise_r
- .text.raise    0x0040d6d4       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signal.o)
-                0x0040d6d4                raise
- .text._kill_r  0x0040d6e4       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signalr.o)
-                0x0040d6e4                _kill_r
+                0x0040d88c       0x58 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signal.o)
+                0x0040d88c                _raise_r
+ .text.raise    0x0040d8e4       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signal.o)
+                0x0040d8e4                raise
+ .text._kill_r  0x0040d8f4       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signalr.o)
+                0x0040d8f4                _kill_r
  .text._getpid_r
-                0x0040d70c        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signalr.o)
-                0x0040d70c                _getpid_r
- .text.__sread  0x0040d710       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
-                0x0040d710                __sread
+                0x0040d91c        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signalr.o)
+                0x0040d91c                _getpid_r
+ .text.__sread  0x0040d920       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
+                0x0040d920                __sread
  .text.__swrite
-                0x0040d734       0x38 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
-                0x0040d734                __swrite
- .text.__sseek  0x0040d76c       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
-                0x0040d76c                __sseek
+                0x0040d944       0x38 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
+                0x0040d944                __swrite
+ .text.__sseek  0x0040d97c       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
+                0x0040d97c                __sseek
  .text.__sclose
-                0x0040d790        0x8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
-                0x0040d790                __sclose
- .text.strlen   0x0040d798       0x5c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-strlen.o)
-                0x0040d798                strlen
+                0x0040d9a0        0x8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
+                0x0040d9a0                __sclose
+ .text.strlen   0x0040d9a8       0x5c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-strlen.o)
+                0x0040d9a8                strlen
  .text.__swbuf_r
-                0x0040d7f4       0xa8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wbuf.o)
-                0x0040d7f4                __swbuf_r
+                0x0040da04       0xa8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wbuf.o)
+                0x0040da04                __swbuf_r
  .text._wcrtomb_r
-                0x0040d89c       0x54 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wcrtomb.o)
-                0x0040d89c                _wcrtomb_r
+                0x0040daac       0x54 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wcrtomb.o)
+                0x0040daac                _wcrtomb_r
  .text.__ascii_wctomb
-                0x0040d8f0       0x18 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wctomb_r.o)
-                0x0040d8f0                __ascii_wctomb
+                0x0040db00       0x18 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wctomb_r.o)
+                0x0040db00                __ascii_wctomb
  .text._write_r
-                0x0040d908       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-writer.o)
-                0x0040d908                _write_r
+                0x0040db18       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-writer.o)
+                0x0040db18                _write_r
  .text._calloc_r
-                0x0040d930       0x60 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-callocr.o)
-                0x0040d930                _calloc_r
+                0x0040db40       0x60 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-callocr.o)
+                0x0040db40                _calloc_r
  .text._close_r
-                0x0040d990       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-closer.o)
-                0x0040d990                _close_r
+                0x0040dba0       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-closer.o)
+                0x0040dba0                _close_r
  .text._fclose_r
-                0x0040d9b4       0x84 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fclose.o)
-                0x0040d9b4                _fclose_r
+                0x0040dbc4       0x84 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fclose.o)
+                0x0040dbc4                _fclose_r
  .text._fstat_r
-                0x0040da38       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fstatr.o)
-                0x0040da38                _fstat_r
+                0x0040dc48       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fstatr.o)
+                0x0040dc48                _fstat_r
  .text._isatty_r
-                0x0040da60       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-isattyr.o)
-                0x0040da60                _isatty_r
+                0x0040dc70       0x24 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-isattyr.o)
+                0x0040dc70                _isatty_r
  .text._lseek_r
-                0x0040da84       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-lseekr.o)
-                0x0040da84                _lseek_r
- .text._read_r  0x0040daac       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-readr.o)
-                0x0040daac                _read_r
- .text          0x0040dad4      0x370 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_addsubdf3.o)
-                0x0040dad4                __aeabi_drsub
-                0x0040dadc                __aeabi_dsub
-                0x0040dadc                __subdf3
-                0x0040dae0                __aeabi_dadd
-                0x0040dae0                __adddf3
-                0x0040dd58                __floatunsidf
-                0x0040dd58                __aeabi_ui2d
-                0x0040dd78                __floatsidf
-                0x0040dd78                __aeabi_i2d
-                0x0040dd9c                __aeabi_f2d
-                0x0040dd9c                __extendsfdf2
-                0x0040ddd8                __floatundidf
-                0x0040ddd8                __aeabi_ul2d
-                0x0040dde8                __floatdidf
-                0x0040dde8                __aeabi_l2d
- .text          0x0040de44      0x424 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_muldivdf3.o)
-                0x0040de44                __aeabi_dmul
-                0x0040de44                __muldf3
-                0x0040e098                __divdf3
-                0x0040e098                __aeabi_ddiv
- .text          0x0040e268       0xa0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_truncdfsf2.o)
-                0x0040e268                __truncdfsf2
-                0x0040e268                __aeabi_d2f
- .text          0x0040e308      0x21c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_addsubsf3.o)
-                0x0040e308                __aeabi_frsub
-                0x0040e310                __subsf3
-                0x0040e310                __aeabi_fsub
-                0x0040e314                __aeabi_fadd
-                0x0040e314                __addsf3
-                0x0040e474                __aeabi_ui2f
-                0x0040e474                __floatunsisf
-                0x0040e47c                __aeabi_i2f
-                0x0040e47c                __floatsisf
-                0x0040e498                __aeabi_ul2f
-                0x0040e498                __floatundisf
-                0x0040e4a8                __aeabi_l2f
-                0x0040e4a8                __floatdisf
- .text          0x0040e524      0x2a0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_muldivsf3.o)
-                0x0040e524                __mulsf3
-                0x0040e524                __aeabi_fmul
-                0x0040e68c                __aeabi_fdiv
-                0x0040e68c                __divsf3
- .text          0x0040e7c4       0xec c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_cmpsf2.o)
-                0x0040e7c4                __gesf2
-                0x0040e7c4                __gtsf2
-                0x0040e7cc                __lesf2
-                0x0040e7cc                __ltsf2
-                0x0040e7d4                __nesf2
-                0x0040e7d4                __eqsf2
-                0x0040e7d4                __cmpsf2
-                0x0040e834                __aeabi_cfrcmple
-                0x0040e83c                __aeabi_cfcmpeq
-                0x0040e83c                __aeabi_cfcmple
-                0x0040e84c                __aeabi_fcmpeq
-                0x0040e860                __aeabi_fcmplt
-                0x0040e874                __aeabi_fcmple
-                0x0040e888                __aeabi_fcmpge
-                0x0040e89c                __aeabi_fcmpgt
- .text          0x0040e8b0       0x30 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_aeabi_uldivmod.o)
-                0x0040e8b0                __aeabi_uldivmod
- .text          0x0040e8e0       0x60 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(bpabi.o)
-                0x0040e8e0                __gnu_ldivmod_helper
-                0x0040e910                __gnu_uldivmod_helper
- .text          0x0040e940        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_dvmd_tls.o)
-                0x0040e940                __aeabi_idiv0
-                0x0040e940                __aeabi_ldiv0
- .text          0x0040e944      0x284 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_divdi3.o)
-                0x0040e944                __divdi3
- .text          0x0040ebc8      0x248 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_udivdi3.o)
-                0x0040ebc8                __udivdi3
+                0x0040dc94       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-lseekr.o)
+                0x0040dc94                _lseek_r
+ .text._read_r  0x0040dcbc       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-readr.o)
+                0x0040dcbc                _read_r
+ .text          0x0040dce4      0x370 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_addsubdf3.o)
+                0x0040dce4                __aeabi_drsub
+                0x0040dcec                __aeabi_dsub
+                0x0040dcec                __subdf3
+                0x0040dcf0                __aeabi_dadd
+                0x0040dcf0                __adddf3
+                0x0040df68                __floatunsidf
+                0x0040df68                __aeabi_ui2d
+                0x0040df88                __floatsidf
+                0x0040df88                __aeabi_i2d
+                0x0040dfac                __aeabi_f2d
+                0x0040dfac                __extendsfdf2
+                0x0040dfe8                __floatundidf
+                0x0040dfe8                __aeabi_ul2d
+                0x0040dff8                __floatdidf
+                0x0040dff8                __aeabi_l2d
+ .text          0x0040e054      0x424 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_muldivdf3.o)
+                0x0040e054                __aeabi_dmul
+                0x0040e054                __muldf3
+                0x0040e2a8                __divdf3
+                0x0040e2a8                __aeabi_ddiv
+ .text          0x0040e478       0xa0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_truncdfsf2.o)
+                0x0040e478                __truncdfsf2
+                0x0040e478                __aeabi_d2f
+ .text          0x0040e518      0x21c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_addsubsf3.o)
+                0x0040e518                __aeabi_frsub
+                0x0040e520                __subsf3
+                0x0040e520                __aeabi_fsub
+                0x0040e524                __aeabi_fadd
+                0x0040e524                __addsf3
+                0x0040e684                __aeabi_ui2f
+                0x0040e684                __floatunsisf
+                0x0040e68c                __aeabi_i2f
+                0x0040e68c                __floatsisf
+                0x0040e6a8                __aeabi_ul2f
+                0x0040e6a8                __floatundisf
+                0x0040e6b8                __aeabi_l2f
+                0x0040e6b8                __floatdisf
+ .text          0x0040e734      0x2a0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_muldivsf3.o)
+                0x0040e734                __mulsf3
+                0x0040e734                __aeabi_fmul
+                0x0040e89c                __aeabi_fdiv
+                0x0040e89c                __divsf3
+ .text          0x0040e9d4       0xec c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_cmpsf2.o)
+                0x0040e9d4                __gesf2
+                0x0040e9d4                __gtsf2
+                0x0040e9dc                __lesf2
+                0x0040e9dc                __ltsf2
+                0x0040e9e4                __nesf2
+                0x0040e9e4                __eqsf2
+                0x0040e9e4                __cmpsf2
+                0x0040ea44                __aeabi_cfrcmple
+                0x0040ea4c                __aeabi_cfcmpeq
+                0x0040ea4c                __aeabi_cfcmple
+                0x0040ea5c                __aeabi_fcmpeq
+                0x0040ea70                __aeabi_fcmplt
+                0x0040ea84                __aeabi_fcmple
+                0x0040ea98                __aeabi_fcmpge
+                0x0040eaac                __aeabi_fcmpgt
+ .text          0x0040eac0       0x30 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_aeabi_uldivmod.o)
+                0x0040eac0                __aeabi_uldivmod
+ .text          0x0040eaf0       0x60 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(bpabi.o)
+                0x0040eaf0                __gnu_ldivmod_helper
+                0x0040eb20                __gnu_uldivmod_helper
+ .text          0x0040eb50        0x4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_dvmd_tls.o)
+                0x0040eb50                __aeabi_idiv0
+                0x0040eb50                __aeabi_ldiv0
+ .text          0x0040eb54      0x284 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_divdi3.o)
+                0x0040eb54                __divdi3
+ .text          0x0040edd8      0x248 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_udivdi3.o)
+                0x0040edd8                __udivdi3
  *(.glue_7t)
  .glue_7t       0x00000000        0x0 linker stubs
  *(.glue_7)
  .glue_7        0x00000000        0x0 linker stubs
  *(.rodata .rodata* .gnu.linkonce.r.*)
- .rodata        0x0040ee10       0x19 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\syscalls.o
- *fill*         0x0040ee29        0x3 
- .rodata        0x0040ee2c      0x21c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\xdma_hardware_interface.o
- .rodata        0x0040f048      0x3f7 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\xdmac.o
- *fill*         0x0040f43f        0x1 
- .rodata        0x0040f440      0x1cf C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\xdmad.o
- *fill*         0x0040f60f        0x1 
- .rodata        0x0040f610       0xf7 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\dbg_console.o
- *fill*         0x0040f707        0x1 
- .rodata        0x0040f708       0x19 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wm8904.o
- *fill*         0x0040f721        0x3 
- .rodata        0x0040f724       0x1c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
- .rodata        0x0040f740       0xa4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
- .rodata        0x0040f7e4       0xe6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
- *fill*         0x0040f8ca        0x2 
- .rodata        0x0040f8cc      0x2c2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
- *fill*         0x0040fb8e        0x2 
- .rodata        0x0040fb90      0x1d2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
- *fill*         0x0040fd62        0x2 
- .rodata        0x0040fd64       0xd6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
- *fill*         0x0040fe3a        0x2 
- .rodata        0x0040fe3c       0xc8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
- .rodata        0x0040ff04        0xc C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
- .rodata        0x0040ff10    0x34eca C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
-                0x0040ff10                armBitRevTable
-                0x00410710                twiddleCoef_16
-                0x00410790                twiddleCoef_32
-                0x00410890                twiddleCoef_64
-                0x00410a90                twiddleCoef_128
-                0x00410e90                twiddleCoef_256
-                0x00411690                twiddleCoef_512
-                0x00412690                twiddleCoef_1024
-                0x00414690                twiddleCoef_2048
-                0x00418690                twiddleCoef_4096
-                0x00420690                twiddleCoef_16_q31
-                0x004206f0                twiddleCoef_32_q31
-                0x004207b0                twiddleCoef_64_q31
-                0x00420930                twiddleCoef_128_q31
-                0x00420c30                twiddleCoef_256_q31
-                0x00421230                twiddleCoef_512_q31
-                0x00421e30                twiddleCoef_1024_q31
-                0x00423630                twiddleCoef_2048_q31
-                0x00426630                twiddleCoef_4096_q31
-                0x0042c630                twiddleCoef_16_q15
-                0x0042c660                twiddleCoef_32_q15
-                0x0042c6c0                twiddleCoef_64_q15
-                0x0042c780                twiddleCoef_128_q15
-                0x0042c900                twiddleCoef_256_q15
-                0x0042cc00                twiddleCoef_512_q15
-                0x0042d200                twiddleCoef_1024_q15
-                0x0042de00                twiddleCoef_2048_q15
-                0x0042f600                twiddleCoef_4096_q15
-                0x00432600                armRecipTableQ15
-                0x00432680                armRecipTableQ31
-                0x00432780                armBitRevIndexTable16
-                0x004327a8                armBitRevIndexTable32
-                0x00432808                armBitRevIndexTable64
-                0x00432878                armBitRevIndexTable128
-                0x00432a18                armBitRevIndexTable256
-                0x00432d88                armBitRevIndexTable512
-                0x00433108                armBitRevIndexTable1024
-                0x00433f18                armBitRevIndexTable2048
-                0x00435cd8                armBitRevIndexTable4096
-                0x00437c58                armBitRevIndexTable_fixed_16
-                0x00437c70                armBitRevIndexTable_fixed_32
-                0x00437ca0                armBitRevIndexTable_fixed_64
-                0x00437d10                armBitRevIndexTable_fixed_128
-                0x00437df0                armBitRevIndexTable_fixed_256
-                0x00437fd0                armBitRevIndexTable_fixed_512
-                0x00438390                armBitRevIndexTable_fixed_1024
-                0x00438b50                armBitRevIndexTable_fixed_2048
-                0x00439ad0                armBitRevIndexTable_fixed_4096
-                0x0043ba50                twiddleCoef_rfft_32
-                0x0043bad0                twiddleCoef_rfft_64
-                0x0043bbd0                twiddleCoef_rfft_128
-                0x0043bdd0                twiddleCoef_rfft_256
-                0x0043c1d0                twiddleCoef_rfft_512
-                0x0043c9d0                twiddleCoef_rfft_1024
-                0x0043d9d0                twiddleCoef_rfft_2048
-                0x0043f9d0                twiddleCoef_rfft_4096
-                0x004439d0                sinTable_f32
-                0x004441d4                sinTable_q31
-                0x004449d8                sinTable_q15
- *fill*         0x00444dda        0x2 
- .rodata        0x00444ddc      0x1b0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
-                0x00444ddc                arm_cfft_sR_f32_len16
-                0x00444dec                arm_cfft_sR_f32_len32
-                0x00444dfc                arm_cfft_sR_f32_len64
-                0x00444e0c                arm_cfft_sR_f32_len128
-                0x00444e1c                arm_cfft_sR_f32_len256
-                0x00444e2c                arm_cfft_sR_f32_len512
-                0x00444e3c                arm_cfft_sR_f32_len1024
-                0x00444e4c                arm_cfft_sR_f32_len2048
-                0x00444e5c                arm_cfft_sR_f32_len4096
-                0x00444e6c                arm_cfft_sR_q31_len16
-                0x00444e7c                arm_cfft_sR_q31_len32
-                0x00444e8c                arm_cfft_sR_q31_len64
-                0x00444e9c                arm_cfft_sR_q31_len128
-                0x00444eac                arm_cfft_sR_q31_len256
-                0x00444ebc                arm_cfft_sR_q31_len512
-                0x00444ecc                arm_cfft_sR_q31_len1024
-                0x00444edc                arm_cfft_sR_q31_len2048
-                0x00444eec                arm_cfft_sR_q31_len4096
-                0x00444efc                arm_cfft_sR_q15_len16
-                0x00444f0c                arm_cfft_sR_q15_len32
-                0x00444f1c                arm_cfft_sR_q15_len64
-                0x00444f2c                arm_cfft_sR_q15_len128
-                0x00444f3c                arm_cfft_sR_q15_len256
-                0x00444f4c                arm_cfft_sR_q15_len512
-                0x00444f5c                arm_cfft_sR_q15_len1024
-                0x00444f6c                arm_cfft_sR_q15_len2048
-                0x00444f7c                arm_cfft_sR_q15_len4096
+ .rodata        0x0040f020       0x19 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\syscalls.o
+ *fill*         0x0040f039        0x3 
+ .rodata        0x0040f03c      0x21c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\xdma_hardware_interface.o
+ .rodata        0x0040f258      0x3f7 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\xdmac.o
+ *fill*         0x0040f64f        0x1 
+ .rodata        0x0040f650      0x1cf C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\xdmad.o
+ *fill*         0x0040f81f        0x1 
+ .rodata        0x0040f820       0xf7 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\dbg_console.o
+ *fill*         0x0040f917        0x1 
+ .rodata        0x0040f918       0x19 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wm8904.o
+ *fill*         0x0040f931        0x3 
+ .rodata        0x0040f934       0x1c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
+ .rodata        0x0040f950       0xa4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .rodata        0x0040f9f4       0xe6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
+ *fill*         0x0040fada        0x2 
+ .rodata        0x0040fadc      0x2c2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
+ *fill*         0x0040fd9e        0x2 
+ .rodata        0x0040fda0      0x1d2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
+ *fill*         0x0040ff72        0x2 
+ .rodata        0x0040ff74       0xd6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
+ *fill*         0x0041004a        0x2 
+ .rodata        0x0041004c       0xc8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+ .rodata        0x00410114        0xc C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+ .rodata        0x00410120    0x34eca C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
+                0x00410120                armBitRevTable
+                0x00410920                twiddleCoef_16
+                0x004109a0                twiddleCoef_32
+                0x00410aa0                twiddleCoef_64
+                0x00410ca0                twiddleCoef_128
+                0x004110a0                twiddleCoef_256
+                0x004118a0                twiddleCoef_512
+                0x004128a0                twiddleCoef_1024
+                0x004148a0                twiddleCoef_2048
+                0x004188a0                twiddleCoef_4096
+                0x004208a0                twiddleCoef_16_q31
+                0x00420900                twiddleCoef_32_q31
+                0x004209c0                twiddleCoef_64_q31
+                0x00420b40                twiddleCoef_128_q31
+                0x00420e40                twiddleCoef_256_q31
+                0x00421440                twiddleCoef_512_q31
+                0x00422040                twiddleCoef_1024_q31
+                0x00423840                twiddleCoef_2048_q31
+                0x00426840                twiddleCoef_4096_q31
+                0x0042c840                twiddleCoef_16_q15
+                0x0042c870                twiddleCoef_32_q15
+                0x0042c8d0                twiddleCoef_64_q15
+                0x0042c990                twiddleCoef_128_q15
+                0x0042cb10                twiddleCoef_256_q15
+                0x0042ce10                twiddleCoef_512_q15
+                0x0042d410                twiddleCoef_1024_q15
+                0x0042e010                twiddleCoef_2048_q15
+                0x0042f810                twiddleCoef_4096_q15
+                0x00432810                armRecipTableQ15
+                0x00432890                armRecipTableQ31
+                0x00432990                armBitRevIndexTable16
+                0x004329b8                armBitRevIndexTable32
+                0x00432a18                armBitRevIndexTable64
+                0x00432a88                armBitRevIndexTable128
+                0x00432c28                armBitRevIndexTable256
+                0x00432f98                armBitRevIndexTable512
+                0x00433318                armBitRevIndexTable1024
+                0x00434128                armBitRevIndexTable2048
+                0x00435ee8                armBitRevIndexTable4096
+                0x00437e68                armBitRevIndexTable_fixed_16
+                0x00437e80                armBitRevIndexTable_fixed_32
+                0x00437eb0                armBitRevIndexTable_fixed_64
+                0x00437f20                armBitRevIndexTable_fixed_128
+                0x00438000                armBitRevIndexTable_fixed_256
+                0x004381e0                armBitRevIndexTable_fixed_512
+                0x004385a0                armBitRevIndexTable_fixed_1024
+                0x00438d60                armBitRevIndexTable_fixed_2048
+                0x00439ce0                armBitRevIndexTable_fixed_4096
+                0x0043bc60                twiddleCoef_rfft_32
+                0x0043bce0                twiddleCoef_rfft_64
+                0x0043bde0                twiddleCoef_rfft_128
+                0x0043bfe0                twiddleCoef_rfft_256
+                0x0043c3e0                twiddleCoef_rfft_512
+                0x0043cbe0                twiddleCoef_rfft_1024
+                0x0043dbe0                twiddleCoef_rfft_2048
+                0x0043fbe0                twiddleCoef_rfft_4096
+                0x00443be0                sinTable_f32
+                0x004443e4                sinTable_q31
+                0x00444be8                sinTable_q15
+ *fill*         0x00444fea        0x2 
+ .rodata        0x00444fec      0x1b0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
+                0x00444fec                arm_cfft_sR_f32_len16
+                0x00444ffc                arm_cfft_sR_f32_len32
+                0x0044500c                arm_cfft_sR_f32_len64
+                0x0044501c                arm_cfft_sR_f32_len128
+                0x0044502c                arm_cfft_sR_f32_len256
+                0x0044503c                arm_cfft_sR_f32_len512
+                0x0044504c                arm_cfft_sR_f32_len1024
+                0x0044505c                arm_cfft_sR_f32_len2048
+                0x0044506c                arm_cfft_sR_f32_len4096
+                0x0044507c                arm_cfft_sR_q31_len16
+                0x0044508c                arm_cfft_sR_q31_len32
+                0x0044509c                arm_cfft_sR_q31_len64
+                0x004450ac                arm_cfft_sR_q31_len128
+                0x004450bc                arm_cfft_sR_q31_len256
+                0x004450cc                arm_cfft_sR_q31_len512
+                0x004450dc                arm_cfft_sR_q31_len1024
+                0x004450ec                arm_cfft_sR_q31_len2048
+                0x004450fc                arm_cfft_sR_q31_len4096
+                0x0044510c                arm_cfft_sR_q15_len16
+                0x0044511c                arm_cfft_sR_q15_len32
+                0x0044512c                arm_cfft_sR_q15_len64
+                0x0044513c                arm_cfft_sR_q15_len128
+                0x0044514c                arm_cfft_sR_q15_len256
+                0x0044515c                arm_cfft_sR_q15_len512
+                0x0044516c                arm_cfft_sR_q15_len1024
+                0x0044517c                arm_cfft_sR_q15_len2048
+                0x0044518c                arm_cfft_sR_q15_len4096
  .rodata.str1.4
-                0x00444f8c        0x6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-wf_sqrt.o)
- *fill*         0x00444f92        0x2 
+                0x0044519c        0x6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-wf_sqrt.o)
+ *fill*         0x004451a2        0x2 
  .rodata.str1.4
-                0x00444f94       0x3f c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-assert.o)
+                0x004451a4       0x3f c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-assert.o)
                                  0x43 (size before relaxing)
- *fill*         0x00444fd3        0x1 
+ *fill*         0x004451e3        0x1 
  .rodata.str1.4
-                0x00444fd4        0x2 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-impure.o)
- *fill*         0x00444fd6        0x2 
+                0x004451e4        0x2 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-impure.o)
+ *fill*         0x004451e6        0x2 
  .rodata.zeroes.6869
-                0x00444fd8       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
+                0x004451e8       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
  .rodata.str1.4
-                0x00444fe8       0x2f c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
- *fill*         0x00445017        0x1 
+                0x004451f8       0x2f c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
+ *fill*         0x00445227        0x1 
  .rodata.blanks.6868
-                0x00445018       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
+                0x00445228       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
  .rodata.zeroes.6926
-                0x00445028       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
+                0x00445238       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
-                0x00445038       0x12 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
+                0x00445248       0x12 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
                                  0x42 (size before relaxing)
- *fill*         0x0044504a        0x2 
+ *fill*         0x0044525a        0x2 
  .rodata.blanks.6925
-                0x0044504c       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
+                0x0044525c       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
  .rodata.str1.4
-                0x0044505c       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-dtoa.o)
+                0x0044526c       0x10 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-dtoa.o)
                                  0x12 (size before relaxing)
  .rodata.str1.4
-                0x0044506c        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
+                0x0044527c        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
                                  0x12 (size before relaxing)
  .rodata.__mprec_tens
-                0x00445078       0xc8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x00445078                __mprec_tens
+                0x00445288       0xc8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x00445288                __mprec_tens
  .rodata.p05.5302
-                0x00445140        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
- *fill*         0x0044514c        0x4 
+                0x00445350        0xc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+ *fill*         0x0044535c        0x4 
  .rodata.__mprec_bigtens
-                0x00445150       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
-                0x00445150                __mprec_bigtens
+                0x00445360       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x00445360                __mprec_bigtens
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x00445178                . = ALIGN (0x4)
+                0x00445388                . = ALIGN (0x4)
  *(.init)
-                0x00445178                . = ALIGN (0x4)
-                0x00445178                __preinit_array_start = .
+                0x00445388                . = ALIGN (0x4)
+                0x00445388                __preinit_array_start = .
  *(.preinit_array)
-                0x00445178                __preinit_array_end = .
-                0x00445178                . = ALIGN (0x4)
-                0x00445178                __init_array_start = .
+                0x00445388                __preinit_array_end = .
+                0x00445388                . = ALIGN (0x4)
+                0x00445388                __init_array_start = .
  *(SORT(.init_array.*))
  *(.init_array)
-                0x00445178                __init_array_end = .
-                0x00445178                . = ALIGN (0x4)
+                0x00445388                __init_array_end = .
+                0x00445388                . = ALIGN (0x4)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
  *(SORT(.ctors.*))
  *crtend.o(.ctors)
-                0x00445178                . = ALIGN (0x4)
+                0x00445388                . = ALIGN (0x4)
  *(.fini)
-                0x00445178                . = ALIGN (0x4)
-                0x00445178                __fini_array_start = .
+                0x00445388                . = ALIGN (0x4)
+                0x00445388                __fini_array_start = .
  *(.fini_array)
  *(SORT(.fini_array.*))
-                0x00445178                __fini_array_end = .
+                0x00445388                __fini_array_end = .
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
  *(SORT(.dtors.*))
  *crtend.o(.dtors)
-                0x00445178                . = ALIGN (0x4)
-                0x00445178                _efixed = .
-                0x00445178                PROVIDE (__exidx_start, .)
+                0x00445388                . = ALIGN (0x4)
+                0x00445388                _efixed = .
+                0x00445388                PROVIDE (__exidx_start, .)
 
-.vfp11_veneer   0x00445178        0x0
+.vfp11_veneer   0x00445388        0x0
  .vfp11_veneer  0x00000000        0x0 linker stubs
 
-.v4_bx          0x00445178        0x0
+.v4_bx          0x00445388        0x0
  .v4_bx         0x00000000        0x0 linker stubs
 
-.iplt           0x00445178        0x0
+.iplt           0x00445388        0x0
  .iplt          0x00000000        0x0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
 
-.igot.plt       0x00445178        0x0
+.igot.plt       0x00445388        0x0
  .igot.plt      0x00000000        0x0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
 
-.ARM.exidx      0x00445178        0x8
+.ARM.exidx      0x00445388        0x8
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
- .ARM.exidx     0x00445178        0x8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_divdi3.o)
- .ARM.exidx     0x00445180        0x0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_udivdi3.o)
+ .ARM.exidx     0x00445388        0x8 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_divdi3.o)
+ .ARM.exidx     0x00445390        0x0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_udivdi3.o)
                                   0x8 (size before relaxing)
-                0x00445180                PROVIDE (__exidx_end, .)
+                0x00445390                PROVIDE (__exidx_end, .)
 
-.rel.dyn        0x00445180        0x0
+.rel.dyn        0x00445390        0x0
  .rel.iplt      0x00000000        0x0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
-                0x00445180                . = ALIGN (0x4)
-                0x00445180                _itcm_lma = .
+                0x00445390                . = ALIGN (0x4)
+                0x00445390                _itcm_lma = .
 
 .relocate_to_itcm
-                0x00445180     0x8000
-                0x00445180                . = ALIGN (0x8)
-                0x0044d180                . = (. + 0x8000)
- *fill*         0x00445180     0x8000 
-                0x0044d180                . = ALIGN (0x8)
-                0x0044d180                _etext = .
+                0x00445390     0x8000
+                0x00445390                . = ALIGN (0x8)
+                0x0044d390                . = (. + 0x8000)
+ *fill*         0x00445390     0x8000 
+                0x0044d390                . = ALIGN (0x8)
+                0x0044d390                _etext = .
 
-.relocate       0x20400000      0xa0c load address 0x0044d180
+.relocate       0x20400000      0xa0c load address 0x0044d390
                 0x20400000                . = ALIGN (0x4)
                 0x20400000                _srelocate = .
  *(.ramfunc .ramfunc.*)
@@ -12437,7 +12423,7 @@ LOAD C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a
                 0x20400a0c                . = ALIGN (0x4)
                 0x20400a0c                _erelocate = .
 
-.bss            0x20400a0c    0x140e8 load address 0x0044db8c
+.bss            0x20400a0c    0x140e8 load address 0x0044dd9c
                 0x20400a0c                . = ALIGN (0x4)
                 0x20400a0c                _sbss = .
                 0x20400a0c                _szero = .
@@ -12484,7 +12470,7 @@ LOAD C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a
                 0x20414af4                _ebss = .
                 0x20414af4                _ezero = .
 
-.stack          0x20414af4     0x4004 load address 0x00461c74
+.stack          0x20414af4     0x4004 load address 0x00461e84
                 0x20414af8                . = ALIGN (0x8)
  *fill*         0x20414af4        0x4 
                 0x20414af8                _sstack = .
@@ -12493,7 +12479,7 @@ LOAD C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a
                 0x20418af8                . = ALIGN (0x8)
                 0x20418af8                _estack = .
 
-.heap           0x20418af8     0x1000 load address 0x00465c78
+.heap           0x20418af8     0x1000 load address 0x00465e88
                 0x20418af8                . = ALIGN (0x8)
                 0x20418af8                _sheap = .
                 0x20419af8                . = (. + HEAP_SIZE)
@@ -12520,7 +12506,7 @@ LOAD c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/so
 LOAD c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libm.a
 OUTPUT(Fft.elf elf32-littlearm)
 
-.debug_info     0x00000000     0xf74d
+.debug_info     0x00000000    0x101d8
  .debug_info    0x00000000      0x515 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
  .debug_info    0x00000515      0x4cc C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\syscalls.o
  .debug_info    0x000009e1      0x410 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\xdma_hardware_interface.o
@@ -12531,29 +12517,31 @@ OUTPUT(Fft.elf elf32-littlearm)
  .debug_info    0x00004db5      0x623 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
  .debug_info    0x000053d8      0x501 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wm8904.o
  .debug_info    0x000058d9      0x6f3 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
- .debug_info    0x00005fcc      0x78b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
- .debug_info    0x00006757      0xa00 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
- .debug_info    0x00007157      0xf6c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
- .debug_info    0x000080c3      0x59c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
- .debug_info    0x0000865f      0x327 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
- .debug_info    0x00008986     0x1559 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
- .debug_info    0x00009edf      0x4a2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
- .debug_info    0x0000a381      0x724 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
- .debug_info    0x0000aaa5      0xd96 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
- .debug_info    0x0000b83b     0x100d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
- .debug_info    0x0000c848      0x160 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
- .debug_info    0x0000c9a8      0x982 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
- .debug_info    0x0000d32a      0x26a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
- .debug_info    0x0000d594      0x158 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
- .debug_info    0x0000d6ec      0x20e C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
- .debug_info    0x0000d8fa       0xb3 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
- .debug_info    0x0000d9ad      0x520 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
- .debug_info    0x0000decd      0x436 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
- .debug_info    0x0000e303      0x18e C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
- .debug_info    0x0000e491      0x95b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
- .debug_info    0x0000edec      0x961 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
+ .debug_info    0x00005fcc      0x1fd C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
+ .debug_info    0x000061c9      0x78b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .debug_info    0x00006954      0xa00 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
+ .debug_info    0x00007354      0xf6c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
+ .debug_info    0x000082c0      0x59c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
+ .debug_info    0x0000885c      0x327 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
+ .debug_info    0x00008b83     0x1559 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
+ .debug_info    0x0000a0dc      0x4a2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
+ .debug_info    0x0000a57e      0x724 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
+ .debug_info    0x0000aca2      0xd96 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
+ .debug_info    0x0000ba38     0x100d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+ .debug_info    0x0000ca45      0x160 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
+ .debug_info    0x0000cba5      0x982 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+ .debug_info    0x0000d527      0x88e C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
+ .debug_info    0x0000ddb5      0x26a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
+ .debug_info    0x0000e01f      0x158 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+ .debug_info    0x0000e177      0x20e C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
+ .debug_info    0x0000e385       0xb3 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
+ .debug_info    0x0000e438      0x520 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
+ .debug_info    0x0000e958      0x436 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
+ .debug_info    0x0000ed8e      0x18e C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
+ .debug_info    0x0000ef1c      0x95b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
+ .debug_info    0x0000f877      0x961 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
 
-.debug_abbrev   0x00000000     0x2c3e
+.debug_abbrev   0x00000000     0x2eae
  .debug_abbrev  0x00000000      0x127 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
  .debug_abbrev  0x00000127      0x15e C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\syscalls.o
  .debug_abbrev  0x00000285       0xfb C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\xdma_hardware_interface.o
@@ -12564,29 +12552,31 @@ OUTPUT(Fft.elf elf32-littlearm)
  .debug_abbrev  0x00000c19      0x1ed C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
  .debug_abbrev  0x00000e06      0x15d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wm8904.o
  .debug_abbrev  0x00000f63      0x113 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
- .debug_abbrev  0x00001076      0x1ce C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
- .debug_abbrev  0x00001244      0x19d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
- .debug_abbrev  0x000013e1      0x22b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
- .debug_abbrev  0x0000160c      0x152 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
- .debug_abbrev  0x0000175e      0x144 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
- .debug_abbrev  0x000018a2      0x324 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
- .debug_abbrev  0x00001bc6      0x129 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
- .debug_abbrev  0x00001cef      0x170 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
- .debug_abbrev  0x00001e5f      0x237 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
- .debug_abbrev  0x00002096      0x2bf C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
- .debug_abbrev  0x00002355       0xcb C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
- .debug_abbrev  0x00002420      0x1b6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
- .debug_abbrev  0x000025d6      0x148 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
- .debug_abbrev  0x0000271e       0x95 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
- .debug_abbrev  0x000027b3       0xcb C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
- .debug_abbrev  0x0000287e       0x14 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
- .debug_abbrev  0x00002892      0x120 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
- .debug_abbrev  0x000029b2       0x8b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
- .debug_abbrev  0x00002a3d       0xd2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
- .debug_abbrev  0x00002b0f       0x85 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
- .debug_abbrev  0x00002b94       0xaa C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
+ .debug_abbrev  0x00001076       0xdf C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
+ .debug_abbrev  0x00001155      0x1ce C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .debug_abbrev  0x00001323      0x19d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
+ .debug_abbrev  0x000014c0      0x22b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
+ .debug_abbrev  0x000016eb      0x152 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
+ .debug_abbrev  0x0000183d      0x144 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
+ .debug_abbrev  0x00001981      0x324 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
+ .debug_abbrev  0x00001ca5      0x129 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
+ .debug_abbrev  0x00001dce      0x170 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
+ .debug_abbrev  0x00001f3e      0x237 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
+ .debug_abbrev  0x00002175      0x2bf C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+ .debug_abbrev  0x00002434       0xcb C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
+ .debug_abbrev  0x000024ff      0x1b6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+ .debug_abbrev  0x000026b5      0x191 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
+ .debug_abbrev  0x00002846      0x148 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
+ .debug_abbrev  0x0000298e       0x95 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+ .debug_abbrev  0x00002a23       0xcb C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
+ .debug_abbrev  0x00002aee       0x14 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
+ .debug_abbrev  0x00002b02      0x120 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
+ .debug_abbrev  0x00002c22       0x8b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
+ .debug_abbrev  0x00002cad       0xd2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
+ .debug_abbrev  0x00002d7f       0x85 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
+ .debug_abbrev  0x00002e04       0xaa C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
 
-.debug_aranges  0x00000000      0x3d0
+.debug_aranges  0x00000000      0x410
  .debug_aranges
                 0x00000000       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
  .debug_aranges
@@ -12608,49 +12598,53 @@ OUTPUT(Fft.elf elf32-littlearm)
  .debug_aranges
                 0x00000120       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
  .debug_aranges
-                0x00000140       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
+                0x00000140       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .debug_aranges
-                0x00000160       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
+                0x00000160       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
  .debug_aranges
-                0x00000180       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
+                0x00000180       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
  .debug_aranges
-                0x000001a0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
+                0x000001a0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
  .debug_aranges
-                0x000001c0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
+                0x000001c0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
  .debug_aranges
-                0x000001e0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
+                0x000001e0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
  .debug_aranges
-                0x00000200       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
+                0x00000200       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
  .debug_aranges
-                0x00000220       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
+                0x00000220       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
  .debug_aranges
-                0x00000240       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
+                0x00000240       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
  .debug_aranges
-                0x00000260       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+                0x00000260       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
  .debug_aranges
-                0x00000280       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
+                0x00000280       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
  .debug_aranges
-                0x000002a0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+                0x000002a0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
  .debug_aranges
-                0x000002c0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
+                0x000002c0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
  .debug_aranges
-                0x000002e0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+                0x000002e0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .debug_aranges
-                0x00000300       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
+                0x00000300       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
  .debug_aranges
-                0x00000320       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
+                0x00000320       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
  .debug_aranges
-                0x00000340       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
+                0x00000340       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
  .debug_aranges
-                0x00000360       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
+                0x00000360       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
  .debug_aranges
-                0x00000380       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
+                0x00000380       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
  .debug_aranges
-                0x000003a0       0x18 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
+                0x000003a0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
  .debug_aranges
-                0x000003b8       0x18 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
+                0x000003c0       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
+ .debug_aranges
+                0x000003e0       0x18 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
+ .debug_aranges
+                0x000003f8       0x18 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
 
-.debug_macro    0x00000000    0x362e9
+.debug_macro    0x00000000    0x38700
  .debug_macro   0x00000000      0xdbd C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
  .debug_macro   0x00000dbd       0x22 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
  .debug_macro   0x00000ddf       0x44 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
@@ -12844,35 +12838,37 @@ OUTPUT(Fft.elf elf32-littlearm)
  .debug_macro   0x0001f51a     0x12eb C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
  .debug_macro   0x00020805     0x12cf C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wm8904.o
  .debug_macro   0x00021ad4     0x12ce C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
- .debug_macro   0x00022da2     0x1131 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
- .debug_macro   0x00023ed3     0x111b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
- .debug_macro   0x00024fee     0x112a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
- .debug_macro   0x00026118     0x111c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
- .debug_macro   0x00027234     0x111c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
- .debug_macro   0x00028350     0x112b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
- .debug_macro   0x0002947b     0x111c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
- .debug_macro   0x0002a597     0x112b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
- .debug_macro   0x0002b6c2     0x12de C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
- .debug_macro   0x0002c9a0     0x137a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
- .debug_macro   0x0002dd1a       0x3a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
- .debug_macro   0x0002dd54       0x10 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
- .debug_macro   0x0002dd64     0x1301 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
- .debug_macro   0x0002f065       0x3a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
- .debug_macro   0x0002f09f     0x131a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
- .debug_macro   0x000303b9     0x1308 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
- .debug_macro   0x000316c1      0xaa4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
- .debug_macro   0x00032165       0x12 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
- .debug_macro   0x00032177       0x10 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
- .debug_macro   0x00032187       0xd6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
- .debug_macro   0x0003225d      0xab7 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
- .debug_macro   0x00032d14       0x7c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
- .debug_macro   0x00032d90      0xaad C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
- .debug_macro   0x0003383d      0xaa4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
- .debug_macro   0x000342e1      0xaa4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
- .debug_macro   0x00034d85      0xaad C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
- .debug_macro   0x00035832      0xab7 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
+ .debug_macro   0x00022da2     0x111c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
+ .debug_macro   0x00023ebe     0x1131 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .debug_macro   0x00024fef     0x111b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
+ .debug_macro   0x0002610a     0x112a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
+ .debug_macro   0x00027234     0x111c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
+ .debug_macro   0x00028350     0x111c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
+ .debug_macro   0x0002946c     0x112b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
+ .debug_macro   0x0002a597     0x111c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
+ .debug_macro   0x0002b6b3     0x112b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
+ .debug_macro   0x0002c7de     0x12de C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
+ .debug_macro   0x0002dabc     0x137a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+ .debug_macro   0x0002ee36       0x3a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+ .debug_macro   0x0002ee70       0x10 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+ .debug_macro   0x0002ee80     0x1301 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
+ .debug_macro   0x00030181       0x3a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
+ .debug_macro   0x000301bb     0x131a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+ .debug_macro   0x000314d5     0x12fb C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
+ .debug_macro   0x000327d0     0x1308 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
+ .debug_macro   0x00033ad8      0xaa4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+ .debug_macro   0x0003457c       0x12 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+ .debug_macro   0x0003458e       0x10 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+ .debug_macro   0x0003459e       0xd6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+ .debug_macro   0x00034674      0xab7 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
+ .debug_macro   0x0003512b       0x7c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
+ .debug_macro   0x000351a7      0xaad C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
+ .debug_macro   0x00035c54      0xaa4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
+ .debug_macro   0x000366f8      0xaa4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
+ .debug_macro   0x0003719c      0xaad C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
+ .debug_macro   0x00037c49      0xab7 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
 
-.debug_line     0x00000000    0x187d8
+.debug_line     0x00000000    0x1a6fa
  .debug_line    0x00000000      0xb28 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
  .debug_line    0x00000b28     0x10be C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\syscalls.o
  .debug_line    0x00001be6      0xe3b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\xdma_hardware_interface.o
@@ -12883,29 +12879,31 @@ OUTPUT(Fft.elf elf32-littlearm)
  .debug_line    0x000067f3     0x10f2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
  .debug_line    0x000078e5     0x10ce C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wm8904.o
  .debug_line    0x000089b3     0x1087 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
- .debug_line    0x00009a3a      0xfb4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
- .debug_line    0x0000a9ee      0xeb3 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
- .debug_line    0x0000b8a1      0xeb2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
- .debug_line    0x0000c753      0xe68 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
- .debug_line    0x0000d5bb      0xe3a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
- .debug_line    0x0000e3f5     0x1057 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
- .debug_line    0x0000f44c      0xe34 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
- .debug_line    0x00010280      0xf16 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
- .debug_line    0x00011196     0x10f3 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
- .debug_line    0x00012289     0x138e C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
- .debug_line    0x00013617     0x1127 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
- .debug_line    0x0001473e     0x115d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
- .debug_line    0x0001589b     0x1133 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
- .debug_line    0x000169ce      0x33d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
- .debug_line    0x00016d0b      0x35c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
- .debug_line    0x00017067       0xbe C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
- .debug_line    0x00017125      0x685 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
- .debug_line    0x000177aa      0x693 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
- .debug_line    0x00017e3d      0x34a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
- .debug_line    0x00018187      0x31d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
- .debug_line    0x000184a4      0x334 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
+ .debug_line    0x00009a3a      0xe0d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
+ .debug_line    0x0000a847      0xfb4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .debug_line    0x0000b7fb      0xeb3 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
+ .debug_line    0x0000c6ae      0xeb2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
+ .debug_line    0x0000d560      0xe68 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
+ .debug_line    0x0000e3c8      0xe3a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
+ .debug_line    0x0000f202     0x1057 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
+ .debug_line    0x00010259      0xe34 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
+ .debug_line    0x0001108d      0xf16 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
+ .debug_line    0x00011fa3     0x10f3 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
+ .debug_line    0x00013096     0x138b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+ .debug_line    0x00014421     0x1127 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
+ .debug_line    0x00015548     0x115d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+ .debug_line    0x000166a5     0x1118 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
+ .debug_line    0x000177bd     0x1133 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
+ .debug_line    0x000188f0      0x33d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+ .debug_line    0x00018c2d      0x35c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
+ .debug_line    0x00018f89       0xbe C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
+ .debug_line    0x00019047      0x685 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
+ .debug_line    0x000196cc      0x693 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
+ .debug_line    0x00019d5f      0x34a C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
+ .debug_line    0x0001a0a9      0x31d C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
+ .debug_line    0x0001a3c6      0x334 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
 
-.debug_str      0x00000000    0x86eb8
+.debug_str      0x00000000    0x87015
  .debug_str     0x00000000    0x6dd93 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
                               0x6e22c (size before relaxing)
  .debug_str     0x0006dd93    0x14021 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\syscalls.o
@@ -12926,45 +12924,49 @@ OUTPUT(Fft.elf elf32-littlearm)
                               0x81bad (size before relaxing)
  .debug_str     0x00083df4       0x80 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
                               0x81d11 (size before relaxing)
- .debug_str     0x00083e74      0x297 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .debug_str     0x00083e74       0x9f C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
+                              0x75d4f (size before relaxing)
+ .debug_str     0x00083f13      0x297 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
                               0x76122 (size before relaxing)
- .debug_str     0x0008410b      0x198 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
+ .debug_str     0x000841aa      0x198 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
                               0x7616c (size before relaxing)
- .debug_str     0x000842a3      0x48e C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
+ .debug_str     0x00084342      0x48e C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
                               0x76623 (size before relaxing)
- .debug_str     0x00084731       0x5c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
+ .debug_str     0x000847d0       0x5c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
                               0x75ecd (size before relaxing)
- .debug_str     0x0008478d      0x147 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
+ .debug_str     0x0008482c      0x147 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
                               0x75e26 (size before relaxing)
- .debug_str     0x000848d4      0x1d6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
+ .debug_str     0x00084973      0x1d6 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
                               0x767be (size before relaxing)
- .debug_str     0x00084aaa      0x1d9 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
+ .debug_str     0x00084b49      0x1d9 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
                               0x75ec5 (size before relaxing)
- .debug_str     0x00084c83      0x29b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
+ .debug_str     0x00084d22      0x29b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
                               0x7606a (size before relaxing)
- .debug_str     0x00084f1e      0x1ad C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
+ .debug_str     0x00084fbd      0x1a8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
                               0x821dd (size before relaxing)
- .debug_str     0x000850cb      0x500 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
-                              0x82497 (size before relaxing)
- .debug_str     0x000855cb       0xf5 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
+ .debug_str     0x00085165      0x4e2 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+                              0x82479 (size before relaxing)
+ .debug_str     0x00085647       0xf5 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
                               0x81af8 (size before relaxing)
- .debug_str     0x000856c0      0x121 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+ .debug_str     0x0008573c      0x121 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
                               0x821d6 (size before relaxing)
- .debug_str     0x000857e1      0x106 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
+ .debug_str     0x0008585d       0xe1 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
+                              0x81fef (size before relaxing)
+ .debug_str     0x0008593e      0x106 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
                               0x81b71 (size before relaxing)
- .debug_str     0x000858e7      0x617 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+ .debug_str     0x00085a44      0x617 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
                                0x60d7 (size before relaxing)
- .debug_str     0x00085efe      0x56f C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
+ .debug_str     0x0008605b      0x56f C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
                                0x6604 (size before relaxing)
- .debug_str     0x0008646d      0x104 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
+ .debug_str     0x000865ca      0x104 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
                                0x65f4 (size before relaxing)
- .debug_str     0x00086571       0x7b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
+ .debug_str     0x000866ce       0x7b C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
                                0x60df (size before relaxing)
- .debug_str     0x000865ec      0x124 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
+ .debug_str     0x00086749      0x124 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
                                0x6174 (size before relaxing)
- .debug_str     0x00086710      0x524 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
+ .debug_str     0x0008686d      0x524 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
                                0x69cb (size before relaxing)
- .debug_str     0x00086c34      0x284 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
+ .debug_str     0x00086d91      0x284 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
                                0x6bb9 (size before relaxing)
 
 .comment        0x00000000       0x70
@@ -12979,6 +12981,7 @@ OUTPUT(Fft.elf elf32-littlearm)
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wm8904.o
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
+ .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
@@ -12991,6 +12994,7 @@ OUTPUT(Fft.elf elf32-littlearm)
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+ .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
  .comment       0x00000000       0x71 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
@@ -13023,177 +13027,181 @@ OUTPUT(Fft.elf elf32-littlearm)
  .ARM.attributes
                 0x000001ef       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
  .ARM.attributes
-                0x00000226       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
+                0x00000226       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
  .ARM.attributes
-                0x0000025d       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
+                0x0000025d       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
  .ARM.attributes
-                0x00000294       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
+                0x00000294       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
  .ARM.attributes
-                0x000002cb       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
+                0x000002cb       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
  .ARM.attributes
-                0x00000302       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
+                0x00000302       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
  .ARM.attributes
-                0x00000339       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
+                0x00000339       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
  .ARM.attributes
-                0x00000370       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
+                0x00000370       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
  .ARM.attributes
-                0x000003a7       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
+                0x000003a7       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
  .ARM.attributes
-                0x000003de       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
+                0x000003de       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
  .ARM.attributes
-                0x00000415       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+                0x00000415       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
  .ARM.attributes
-                0x0000044c       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
+                0x0000044c       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
  .ARM.attributes
-                0x00000483       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+                0x00000483       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
  .ARM.attributes
-                0x000004ba       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
+                0x000004ba       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
  .ARM.attributes
-                0x000004f1       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+                0x000004f1       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
  .ARM.attributes
-                0x00000528       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
+                0x00000528       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
  .ARM.attributes
-                0x0000055f       0x23 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
+                0x0000055f       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
  .ARM.attributes
-                0x00000582       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
+                0x00000596       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
  .ARM.attributes
-                0x000005b9       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
+                0x000005cd       0x23 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_bitreversal2.o
  .ARM.attributes
-                0x000005f0       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
+                0x000005f0       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
  .ARM.attributes
-                0x00000627       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
+                0x00000627       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
  .ARM.attributes
-                0x0000065e       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
+                0x0000065e       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
  .ARM.attributes
-                0x00000695       0x30 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-wf_sqrt.o)
+                0x00000695       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_common_tables.o
  .ARM.attributes
-                0x000006c5       0x30 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-ef_sqrt.o)
+                0x000006cc       0x37 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_const_structs.o
  .ARM.attributes
-                0x000006f5       0x30 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-s_lib_ver.o)
+                0x00000703       0x30 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-wf_sqrt.o)
  .ARM.attributes
-                0x00000725       0x30 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-s_matherr.o)
+                0x00000733       0x30 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-ef_sqrt.o)
  .ARM.attributes
-                0x00000755       0x30 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-sf_fpclassify.o)
+                0x00000763       0x30 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-s_lib_ver.o)
  .ARM.attributes
-                0x00000785       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-assert.o)
+                0x00000793       0x30 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-s_matherr.o)
  .ARM.attributes
-                0x000007ba       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-errno.o)
+                0x000007c3       0x30 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-sf_fpclassify.o)
  .ARM.attributes
-                0x000007ef       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fiprintf.o)
+                0x000007f3       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-assert.o)
  .ARM.attributes
-                0x00000824       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-impure.o)
+                0x00000828       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-errno.o)
  .ARM.attributes
-                0x00000859       0x23 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memcpy.o)
+                0x0000085d       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fiprintf.o)
  .ARM.attributes
-                0x0000087c       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-printf.o)
+                0x00000892       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-impure.o)
  .ARM.attributes
-                0x000008b1       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putchar.o)
+                0x000008c7       0x23 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memcpy.o)
  .ARM.attributes
-                0x000008e6       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-setvbuf.o)
+                0x000008ea       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-printf.o)
  .ARM.attributes
-                0x0000091b       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
+                0x0000091f       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putchar.o)
  .ARM.attributes
-                0x00000950       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
+                0x00000954       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-setvbuf.o)
  .ARM.attributes
-                0x00000985       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wsetup.o)
+                0x00000989       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
  .ARM.attributes
-                0x000009ba       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-abort.o)
+                0x000009be       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
  .ARM.attributes
-                0x000009ef       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-dtoa.o)
+                0x000009f3       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wsetup.o)
  .ARM.attributes
-                0x00000a24       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fflush.o)
+                0x00000a28       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-abort.o)
  .ARM.attributes
-                0x00000a59       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
+                0x00000a5d       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-dtoa.o)
  .ARM.attributes
-                0x00000a8e       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fputwc.o)
+                0x00000a92       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fflush.o)
  .ARM.attributes
-                0x00000ac3       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-freer.o)
+                0x00000ac7       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
  .ARM.attributes
-                0x00000af8       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fvwrite.o)
+                0x00000afc       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fputwc.o)
  .ARM.attributes
-                0x00000b2d       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fwalk.o)
+                0x00000b31       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-freer.o)
  .ARM.attributes
-                0x00000b62       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
+                0x00000b66       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fvwrite.o)
  .ARM.attributes
-                0x00000b97       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-makebuf.o)
+                0x00000b9b       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fwalk.o)
  .ARM.attributes
-                0x00000bcc       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-malloc.o)
+                0x00000bd0       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
  .ARM.attributes
-                0x00000c01       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mallocr.o)
+                0x00000c05       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-makebuf.o)
  .ARM.attributes
-                0x00000c36       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memchr.o)
+                0x00000c3a       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-malloc.o)
  .ARM.attributes
-                0x00000c6b       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memmove.o)
+                0x00000c6f       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mallocr.o)
  .ARM.attributes
-                0x00000ca0       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memset.o)
+                0x00000ca4       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memchr.o)
  .ARM.attributes
-                0x00000cd5       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mlock.o)
+                0x00000cd9       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memmove.o)
  .ARM.attributes
-                0x00000d0a       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+                0x00000d0e       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memset.o)
  .ARM.attributes
-                0x00000d3f       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putc.o)
+                0x00000d43       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mlock.o)
  .ARM.attributes
-                0x00000d74       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-reallocr.o)
+                0x00000d78       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
  .ARM.attributes
-                0x00000da9       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-s_fpclassify.o)
+                0x00000dad       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putc.o)
  .ARM.attributes
-                0x00000dde       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-sbrkr.o)
+                0x00000de2       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-reallocr.o)
  .ARM.attributes
-                0x00000e13       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signal.o)
+                0x00000e17       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-s_fpclassify.o)
  .ARM.attributes
-                0x00000e48       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signalr.o)
+                0x00000e4c       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-sbrkr.o)
  .ARM.attributes
-                0x00000e7d       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
+                0x00000e81       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signal.o)
  .ARM.attributes
-                0x00000eb2       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-strlen.o)
+                0x00000eb6       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signalr.o)
  .ARM.attributes
-                0x00000ee7       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wbuf.o)
+                0x00000eeb       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
  .ARM.attributes
-                0x00000f1c       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wcrtomb.o)
+                0x00000f20       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-strlen.o)
  .ARM.attributes
-                0x00000f51       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wctomb_r.o)
+                0x00000f55       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wbuf.o)
  .ARM.attributes
-                0x00000f86       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-writer.o)
+                0x00000f8a       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wcrtomb.o)
  .ARM.attributes
-                0x00000fbb       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-callocr.o)
+                0x00000fbf       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wctomb_r.o)
  .ARM.attributes
-                0x00000ff0       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-closer.o)
+                0x00000ff4       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-writer.o)
  .ARM.attributes
-                0x00001025       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fclose.o)
+                0x00001029       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-callocr.o)
  .ARM.attributes
-                0x0000105a       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fstatr.o)
+                0x0000105e       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-closer.o)
  .ARM.attributes
-                0x0000108f       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-isattyr.o)
+                0x00001093       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fclose.o)
  .ARM.attributes
-                0x000010c4       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-lseekr.o)
+                0x000010c8       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fstatr.o)
  .ARM.attributes
-                0x000010f9       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-readr.o)
+                0x000010fd       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-isattyr.o)
  .ARM.attributes
-                0x0000112e       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-reent.o)
+                0x00001132       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-lseekr.o)
  .ARM.attributes
-                0x00001163       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_addsubdf3.o)
+                0x00001167       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-readr.o)
  .ARM.attributes
-                0x00001188       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_muldivdf3.o)
+                0x0000119c       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-reent.o)
  .ARM.attributes
-                0x000011ad       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_truncdfsf2.o)
+                0x000011d1       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_addsubdf3.o)
  .ARM.attributes
-                0x000011d2       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_addsubsf3.o)
+                0x000011f6       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_muldivdf3.o)
  .ARM.attributes
-                0x000011f7       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_muldivsf3.o)
+                0x0000121b       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_truncdfsf2.o)
  .ARM.attributes
-                0x0000121c       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_cmpsf2.o)
+                0x00001240       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_addsubsf3.o)
  .ARM.attributes
-                0x00001241       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_aeabi_uldivmod.o)
+                0x00001265       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_muldivsf3.o)
  .ARM.attributes
-                0x00001266       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(bpabi.o)
+                0x0000128a       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_arm_cmpsf2.o)
  .ARM.attributes
-                0x0000129b       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_dvmd_tls.o)
+                0x000012af       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_aeabi_uldivmod.o)
  .ARM.attributes
-                0x000012c0       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_divdi3.o)
+                0x000012d4       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(bpabi.o)
  .ARM.attributes
-                0x000012f5       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_udivdi3.o)
+                0x00001309       0x25 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x0000132e       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_divdi3.o)
+ .ARM.attributes
+                0x00001363       0x35 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_udivdi3.o)
 
-.debug_frame    0x00000000     0x373c
+.debug_frame    0x00000000     0x3920
  .debug_frame   0x00000000       0xc0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\system_sam.o
  .debug_frame   0x000000c0      0x1b4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\syscalls.o
  .debug_frame   0x00000274       0x58 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\xdma_hardware_interface.o
@@ -13204,75 +13212,77 @@ OUTPUT(Fft.elf elf32-littlearm)
  .debug_frame   0x00000c30       0x80 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\board_lowlevel.o
  .debug_frame   0x00000cb0       0xa4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wm8904.o
  .debug_frame   0x00000d54       0xa0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\led.o
- .debug_frame   0x00000df4      0x35c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
- .debug_frame   0x00001150      0x294 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
- .debug_frame   0x000013e4      0x1f0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
- .debug_frame   0x000015d4       0xcc C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
- .debug_frame   0x000016a0       0xf4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
- .debug_frame   0x00001794      0x280 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
- .debug_frame   0x00001a14      0x1ec C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
- .debug_frame   0x00001c00      0x238 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
- .debug_frame   0x00001e38      0x158 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
- .debug_frame   0x00001f90      0x148 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
- .debug_frame   0x000020d8       0x68 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
- .debug_frame   0x00002140       0x7c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
- .debug_frame   0x000021bc       0xa8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
- .debug_frame   0x00002264       0x38 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
- .debug_frame   0x0000229c       0x34 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
- .debug_frame   0x000022d0       0x84 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
- .debug_frame   0x00002354       0x38 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
- .debug_frame   0x0000238c       0x58 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
- .debug_frame   0x000023e4       0x4c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-wf_sqrt.o)
- .debug_frame   0x00002430       0x38 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-ef_sqrt.o)
- .debug_frame   0x00002468       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-s_matherr.o)
- .debug_frame   0x00002488       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-sf_fpclassify.o)
- .debug_frame   0x000024a8       0x40 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-assert.o)
- .debug_frame   0x000024e8       0x20 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-errno.o)
- .debug_frame   0x00002508       0x74 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fiprintf.o)
- .debug_frame   0x0000257c       0x78 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-printf.o)
- .debug_frame   0x000025f4       0x30 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putchar.o)
- .debug_frame   0x00002624       0x34 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-setvbuf.o)
- .debug_frame   0x00002658       0xdc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
- .debug_frame   0x00002734       0xc4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
- .debug_frame   0x000027f8       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wsetup.o)
- .debug_frame   0x00002824       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-abort.o)
- .debug_frame   0x0000284c       0xa0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-dtoa.o)
- .debug_frame   0x000028ec       0x6c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fflush.o)
- .debug_frame   0x00002958      0x120 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
- .debug_frame   0x00002a78       0x84 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fputwc.o)
- .debug_frame   0x00002afc       0x74 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-freer.o)
- .debug_frame   0x00002b70       0x68 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fvwrite.o)
- .debug_frame   0x00002bd8       0x54 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fwalk.o)
- .debug_frame   0x00002c2c       0x9c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
- .debug_frame   0x00002cc8       0x48 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-makebuf.o)
- .debug_frame   0x00002d10       0x30 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-malloc.o)
- .debug_frame   0x00002d40       0x58 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mallocr.o)
- .debug_frame   0x00002d98       0x3c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memchr.o)
- .debug_frame   0x00002dd4       0x30 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memmove.o)
- .debug_frame   0x00002e04       0x34 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memset.o)
- .debug_frame   0x00002e38       0x30 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mlock.o)
- .debug_frame   0x00002e68      0x270 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
- .debug_frame   0x000030d8       0x68 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putc.o)
- .debug_frame   0x00003140       0x54 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-reallocr.o)
- .debug_frame   0x00003194       0x20 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-s_fpclassify.o)
- .debug_frame   0x000031b4       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-sbrkr.o)
- .debug_frame   0x000031e0       0xe4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signal.o)
- .debug_frame   0x000032c4       0x3c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signalr.o)
- .debug_frame   0x00003300       0x88 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
- .debug_frame   0x00003388       0x20 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-strlen.o)
- .debug_frame   0x000033a8       0x3c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wbuf.o)
- .debug_frame   0x000033e4       0x60 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wcrtomb.o)
- .debug_frame   0x00003444       0x48 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wctomb_r.o)
- .debug_frame   0x0000348c       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-writer.o)
- .debug_frame   0x000034b8       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-callocr.o)
- .debug_frame   0x000034e0       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-closer.o)
- .debug_frame   0x0000350c       0x44 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fclose.o)
- .debug_frame   0x00003550       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fstatr.o)
- .debug_frame   0x0000357c       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-isattyr.o)
- .debug_frame   0x000035a8       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-lseekr.o)
- .debug_frame   0x000035d4       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-readr.o)
- .debug_frame   0x00003600       0x58 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-reent.o)
- .debug_frame   0x00003658       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_aeabi_uldivmod.o)
- .debug_frame   0x00003680       0x54 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(bpabi.o)
- .debug_frame   0x000036d4       0x34 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_divdi3.o)
- .debug_frame   0x00003708       0x34 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_udivdi3.o)
+ .debug_frame   0x00000df4       0xd8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\wdt.o
+ .debug_frame   0x00000ecc      0x35c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pmc.o
+ .debug_frame   0x00001228      0x294 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio.o
+ .debug_frame   0x000014bc      0x1f0 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\pio_it.o
+ .debug_frame   0x000016ac       0xcc C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\exceptions.o
+ .debug_frame   0x00001778       0xf4 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\mpu.o
+ .debug_frame   0x0000186c      0x280 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twid.o
+ .debug_frame   0x00001aec      0x1ec C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\ssc.o
+ .debug_frame   0x00001cd8      0x238 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\twi.o
+ .debug_frame   0x00001f10      0x158 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\timetick.o
+ .debug_frame   0x00002068      0x148 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Main.o
+ .debug_frame   0x000021b0       0x68 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Led_Ctrl.o
+ .debug_frame   0x00002218       0x7c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Button_Ctrl.o
+ .debug_frame   0x00002294      0x10c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Wdg.o
+ .debug_frame   0x000023a0       0xa8 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\Fpu.o
+ .debug_frame   0x00002448       0x38 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_max_f32.o
+ .debug_frame   0x00002480       0x34 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\fft_float.o
+ .debug_frame   0x000024b4       0x84 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_f32.o
+ .debug_frame   0x00002538       0x38 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cfft_radix8_f32.o
+ .debug_frame   0x00002570       0x58 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\SAMV71_Xplained_Ultra\Debug\arm_cmplx_mag_f32.o
+ .debug_frame   0x000025c8       0x4c C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-wf_sqrt.o)
+ .debug_frame   0x00002614       0x38 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-ef_sqrt.o)
+ .debug_frame   0x0000264c       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-s_matherr.o)
+ .debug_frame   0x0000266c       0x20 C:\Samv7_02\SAMV7x\SAMV71x\app\12_Fft - Afec\src\Lib\libm.a(lib_a-sf_fpclassify.o)
+ .debug_frame   0x0000268c       0x40 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-assert.o)
+ .debug_frame   0x000026cc       0x20 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-errno.o)
+ .debug_frame   0x000026ec       0x74 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fiprintf.o)
+ .debug_frame   0x00002760       0x78 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-printf.o)
+ .debug_frame   0x000027d8       0x30 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putchar.o)
+ .debug_frame   0x00002808       0x34 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-setvbuf.o)
+ .debug_frame   0x0000283c       0xdc c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfiprintf.o)
+ .debug_frame   0x00002918       0xc4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-vfprintf.o)
+ .debug_frame   0x000029dc       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wsetup.o)
+ .debug_frame   0x00002a08       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-abort.o)
+ .debug_frame   0x00002a30       0xa0 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-dtoa.o)
+ .debug_frame   0x00002ad0       0x6c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fflush.o)
+ .debug_frame   0x00002b3c      0x120 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-findfp.o)
+ .debug_frame   0x00002c5c       0x84 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fputwc.o)
+ .debug_frame   0x00002ce0       0x74 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-freer.o)
+ .debug_frame   0x00002d54       0x68 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fvwrite.o)
+ .debug_frame   0x00002dbc       0x54 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fwalk.o)
+ .debug_frame   0x00002e10       0x9c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-locale.o)
+ .debug_frame   0x00002eac       0x48 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-makebuf.o)
+ .debug_frame   0x00002ef4       0x30 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-malloc.o)
+ .debug_frame   0x00002f24       0x58 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mallocr.o)
+ .debug_frame   0x00002f7c       0x3c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memchr.o)
+ .debug_frame   0x00002fb8       0x30 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memmove.o)
+ .debug_frame   0x00002fe8       0x34 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-memset.o)
+ .debug_frame   0x0000301c       0x30 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mlock.o)
+ .debug_frame   0x0000304c      0x270 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-mprec.o)
+ .debug_frame   0x000032bc       0x68 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-putc.o)
+ .debug_frame   0x00003324       0x54 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-reallocr.o)
+ .debug_frame   0x00003378       0x20 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-s_fpclassify.o)
+ .debug_frame   0x00003398       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-sbrkr.o)
+ .debug_frame   0x000033c4       0xe4 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signal.o)
+ .debug_frame   0x000034a8       0x3c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-signalr.o)
+ .debug_frame   0x000034e4       0x88 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-stdio.o)
+ .debug_frame   0x0000356c       0x20 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-strlen.o)
+ .debug_frame   0x0000358c       0x3c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wbuf.o)
+ .debug_frame   0x000035c8       0x60 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wcrtomb.o)
+ .debug_frame   0x00003628       0x48 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-wctomb_r.o)
+ .debug_frame   0x00003670       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-writer.o)
+ .debug_frame   0x0000369c       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-callocr.o)
+ .debug_frame   0x000036c4       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-closer.o)
+ .debug_frame   0x000036f0       0x44 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fclose.o)
+ .debug_frame   0x00003734       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-fstatr.o)
+ .debug_frame   0x00003760       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-isattyr.o)
+ .debug_frame   0x0000378c       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-lseekr.o)
+ .debug_frame   0x000037b8       0x2c c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-readr.o)
+ .debug_frame   0x000037e4       0x58 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/../../../../arm-none-eabi/lib/cortex-m7/softfp/fpv5-d16\libc.a(lib_a-reent.o)
+ .debug_frame   0x0000383c       0x28 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x00003864       0x54 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(bpabi.o)
+ .debug_frame   0x000038b8       0x34 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_divdi3.o)
+ .debug_frame   0x000038ec       0x34 c:/isystem/winidea9/gcc/arm/bin/../lib/gcc/arm-none-eabi/4.9.3/cortex-m7/softfp/fpv5-d16\libgcc.a(_udivdi3.o)

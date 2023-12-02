@@ -33,16 +33,17 @@
 /*~~~~~~  Local definitions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #define MASTERCLOCK   	(150000000)
 #define I2C_BAUDRATE  	(400000)
-#define I2S_BITRATE   	(8000)
+#define I2S_BITRATE   	(8000 * 32)
 
 #define SAMP_PER      	(50)
 #define BUFF_SIZE     	(8192) //1 second sample
 #define FFT_SIZE		(1024)
 
-#define SSC_RCMR_CONFIG	(SSC_RCMR_CKS_TK | SSC_RCMR_CKO_NONE | SSC_RCMR_CKI | SSC_RCMR_CKG_CONTINUOUS | SSC_RCMR_START_RF_EDGE | SSC_RCMR_STTDLY(1) | SSC_RCMR_PERIOD(0))
-#define SSC_RFMR_CONFIG	(SSC_RFMR_DATLEN(15) | SSC_RFMR_MSBF | SSC_RFMR_FSLEN(15) | SSC_TFMR_FSOS_NONE | SSC_TFMR_FSEDGE_POSITIVE)
+#define SSC_RCMR_CONFIG	(SSC_RCMR_CKS_MCK | SSC_RCMR_CKO_NONE | SSC_RCMR_CKG_CONTINUOUS | SSC_RCMR_START_RF_EDGE | SSC_RCMR_STTDLY(1) | SSC_RCMR_PERIOD(0))
+#define SSC_RFMR_CONFIG	(SSC_RFMR_DATLEN(15) | SSC_RFMR_MSBF | SSC_TFMR_FSOS_NONE | SSC_TFMR_FSEDGE_POSITIVE)
 #define	SSC_TCMR_CONFIG (SSC_TCMR_CKS_TK | SSC_TCMR_CKO_NONE | SSC_TCMR_CKG_CONTINUOUS | SSC_TCMR_START_TF_EDGE | SSC_TCMR_STTDLY(1) | SSC_TCMR_PERIOD(0))
 #define SSC_TFMR_CONFIG (SSC_RFMR_DATLEN(15) | SSC_TFMR_MSBF | SSC_RFMR_FSLEN(15) | SSC_TFMR_FSOS_NONE | SSC_TFMR_FSEDGE_POSITIVE)
+
 /*~~~~~~  Global variables ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 Pin SSC_Pins[] = PINS_SSC_CODEC;
 Pin PCK2_Pins[] = PIN_PCK2;
@@ -82,7 +83,7 @@ pfun pFFT = &fft_process;
 extern int main( void )
 {
 	/* Disable watchdog */
-	//Wdg_Disable();
+	Wdg_Disable();
 	/* Configure LEDs */
 	LedCtrl_Configure();
   /* Configure Button */  
@@ -101,6 +102,7 @@ extern int main( void )
 	printf( "-- %s\n\r", BOARD_NAME ) ;
 	printf( "-- Compiled: %s %s With %s --\n\r", __DATE__, __TIME__ , COMPILER_NAME);
 
+	I2S_Init();
 	I2S_AudioRecord();
 	uinttofloat(fft_inputData, ssc_inputData);
 
@@ -146,6 +148,8 @@ void I2S_Init(void)
   	SSC_Configure(SSC, I2S_BITRATE, MASTERCLOCK);
   	SSC_ConfigureTransmitter(SSC, SSC_TCMR_CONFIG, SSC_TFMR_CONFIG);
   	SSC_ConfigureReceiver(SSC, SSC_RCMR_CONFIG  , SSC_RFMR_CONFIG);
+
+	PMC_ConfigurePCK2(1, 0);
 
   	SSC_EnableTransmitter(SSC);
   	SSC_EnableReceiver(SSC);
@@ -217,9 +221,10 @@ void I2S_AudioRecord()
 	int i = 0;
 	for( i = 0; i < BUFF_SIZE; i++ )
 	{
-		ssc_inputData[i] = SSC_Read(SSC);
+		//ssc_inputData[i] = SSC_Read(SSC);
 		while(!SSC_IsRxReady(SSC)) //waits until frame is received
 		{
+			ssc_inputData[i] = SSC_Read(SSC);
 		}
 	}
 }
