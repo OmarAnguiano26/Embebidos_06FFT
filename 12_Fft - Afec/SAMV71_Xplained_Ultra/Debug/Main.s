@@ -321,11 +321,11 @@ TWI0_Pins:
 	.byte	0
 	.byte	0
 	.space	1
-	.comm	fft_inputData,32768,4
-	.comm	fft_signalPower,16384,4
+	.comm	fft_inputData,8192,4
+	.comm	fft_signalPower,4096,4
 	.comm	u32fft_maxPowerIndex,4,4
 	.comm	fft_maxPower,4,4
-	.comm	ssc_inputData,32768,4
+	.comm	ssc_inputData,8192,4
 	.global	pFFT
 	.align	2
 	.type	pFFT, %object
@@ -350,10 +350,10 @@ pFFT:
 	.ascii	"-- Compiled: %s %s With %s --\012\015\000"
 	.align	2
 .LC5:
-	.ascii	"Dec  1 2023\000"
+	.ascii	"Dec  2 2023\000"
 	.align	2
 .LC6:
-	.ascii	"22:19:21\000"
+	.ascii	"02:33:10\000"
 	.align	2
 .LC7:
 	.ascii	"GCC\000"
@@ -424,9 +424,11 @@ main:
 	ldr	r0, .L12+40
 	bl	printf
 	.loc 3 114 0
-	bl	fft_process
+	ldr	r3, .L12+44
+	ldr	r3, [r3]
+	blx	r3
 .L11:
-	.loc 3 120 0 discriminator 1
+	.loc 3 119 0 discriminator 1
 	b	.L11
 .L13:
 	.align	2
@@ -442,6 +444,7 @@ main:
 	.word	fft_inputData
 	.word	ssc_inputData
 	.word	.LC8
+	.word	pFFT
 	.cfi_endproc
 .LFE283:
 	.size	main, .-main
@@ -458,7 +461,7 @@ main:
 	.type	fft_process, %function
 fft_process:
 .LFB284:
-	.loc 3 124 0
+	.loc 3 123 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -471,15 +474,15 @@ fft_process:
 	.cfi_def_cfa_offset 24
 	add	r7, sp, #8
 	.cfi_def_cfa 7, 16
-	.loc 3 126 0
+	.loc 3 125 0
 	ldr	r3, .L15
 	str	r3, [sp]
 	ldr	r0, .L15+4
 	ldr	r1, .L15+8
-	mov	r2, #4096
+	mov	r2, #1024
 	ldr	r3, .L15+12
 	bl	fft
-	.loc 3 129 0
+	.loc 3 128 0
 	ldr	r3, .L15+12
 	ldr	r4, [r3]
 	ldr	r3, .L15
@@ -491,7 +494,7 @@ fft_process:
 	ldr	r0, .L15+16
 	mov	r1, r4
 	bl	printf
-	.loc 3 130 0
+	.loc 3 129 0
 	adds	r7, r7, #4
 	.cfi_def_cfa_offset 12
 	mov	sp, r7
@@ -516,7 +519,7 @@ fft_process:
 	.type	I2C_Init, %function
 I2C_Init:
 .LFB285:
-	.loc 3 133 0
+	.loc 3 132 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -526,34 +529,34 @@ I2C_Init:
 	.cfi_offset 14, -4
 	add	r7, sp, #0
 	.cfi_def_cfa_register 7
-	.loc 3 134 0
+	.loc 3 133 0
 	movs	r0, #10
 	bl	PMC_EnablePeripheral
-	.loc 3 135 0
+	.loc 3 134 0
 	movs	r0, #11
 	bl	PMC_EnablePeripheral
-	.loc 3 136 0
+	.loc 3 135 0
 	movs	r0, #12
 	bl	PMC_EnablePeripheral
-	.loc 3 137 0
+	.loc 3 136 0
 	movs	r0, #16
 	bl	PMC_EnablePeripheral
-	.loc 3 138 0
+	.loc 3 137 0
 	movs	r0, #17
 	bl	PMC_EnablePeripheral
-	.loc 3 139 0
+	.loc 3 138 0
 	movs	r0, #19
 	bl	PMC_EnablePeripheral
-	.loc 3 140 0
+	.loc 3 139 0
 	ldr	r0, .L18
 	movs	r1, #2
 	bl	PIO_Configure
-	.loc 3 141 0
+	.loc 3 140 0
 	ldr	r0, .L18+4
 	ldr	r1, .L18+8
 	ldr	r2, .L18+12
 	bl	TWI_ConfigureMaster
-	.loc 3 142 0
+	.loc 3 141 0
 	pop	{r7, pc}
 .L19:
 	.align	2
@@ -572,7 +575,7 @@ I2C_Init:
 	.type	I2S_Init, %function
 I2S_Init:
 .LFB286:
-	.loc 3 145 0
+	.loc 3 144 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 0
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -582,39 +585,39 @@ I2S_Init:
 	.cfi_offset 14, -4
 	add	r7, sp, #0
 	.cfi_def_cfa_register 7
-	.loc 3 146 0
+	.loc 3 145 0
 	movs	r0, #22
 	bl	PMC_EnablePeripheral
-	.loc 3 147 0
+	.loc 3 146 0
 	ldr	r0, .L21
 	movs	r1, #6
 	bl	PIO_Configure
-	.loc 3 148 0
+	.loc 3 147 0
 	mov	r0, #1073758208
 	mov	r1, #256000
 	ldr	r2, .L21+4
 	bl	SSC_Configure
-	.loc 3 149 0
+	.loc 3 148 0
 	mov	r0, #1073758208
 	ldr	r1, .L21+8
 	ldr	r2, .L21+12
 	bl	SSC_ConfigureTransmitter
-	.loc 3 150 0
+	.loc 3 149 0
 	mov	r0, #1073758208
 	ldr	r1, .L21+16
 	movs	r2, #143
 	bl	SSC_ConfigureReceiver
-	.loc 3 152 0
+	.loc 3 151 0
 	movs	r0, #1
 	movs	r1, #0
 	bl	PMC_ConfigurePCK2
-	.loc 3 154 0
+	.loc 3 153 0
 	mov	r0, #1073758208
 	bl	SSC_EnableTransmitter
-	.loc 3 155 0
+	.loc 3 154 0
 	mov	r0, #1073758208
 	bl	SSC_EnableReceiver
-	.loc 3 156 0
+	.loc 3 155 0
 	pop	{r7, pc}
 .L22:
 	.align	2
@@ -639,7 +642,7 @@ I2S_Init:
 	.type	CODEC_Init, %function
 CODEC_Init:
 .LFB287:
-	.loc 3 159 0
+	.loc 3 158 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 16
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -651,26 +654,26 @@ CODEC_Init:
 	.cfi_def_cfa_offset 24
 	add	r7, sp, #0
 	.cfi_def_cfa_register 7
-	.loc 3 163 0
+	.loc 3 162 0
 	ldr	r3, .L25
 	str	r3, [r7]
-	.loc 3 164 0
+	.loc 3 163 0
 	movs	r3, #0
 	str	r3, [r7, #4]
-	.loc 3 166 0
+	.loc 3 165 0
 	movs	r3, #0
 	strh	r3, [r7, #14]	@ movhi
-	.loc 3 168 0
+	.loc 3 167 0
 	bl	TimeTick_Configure
 	str	r0, [r7, #8]
-	.loc 3 169 0
+	.loc 3 168 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #0
 	movw	r3, #65535
 	bl	WM8904_Write
-	.loc 3 170 0
+	.loc 3 169 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
@@ -678,239 +681,239 @@ CODEC_Init:
 	bl	WM8904_Read
 	mov	r3, r0
 	strh	r3, [r7, #14]	@ movhi
-	.loc 3 171 0
+	.loc 3 170 0
 	ldrh	r3, [r7, #14]
 	movw	r2, #35076
 	cmp	r3, r2
 	beq	.L24
-	.loc 3 173 0
+	.loc 3 172 0
 	ldr	r0, .L25+4
 	bl	printf
 .L24:
-	.loc 3 176 0
+	.loc 3 175 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #1
 	bl	WM8904_Init
-	.loc 3 177 0
+	.loc 3 176 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #4
 	movs	r3, #8
 	bl	WM8904_Write
-	.loc 3 178 0
+	.loc 3 177 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #5
 	movs	r3, #71
 	bl	WM8904_Write
-	.loc 3 180 0
+	.loc 3 179 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #4
 	movs	r3, #9
 	bl	WM8904_Write
-	.loc 3 181 0
+	.loc 3 180 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #12
 	movs	r3, #3
 	bl	WM8904_Write
-	.loc 3 182 0
+	.loc 3 181 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #14
 	movs	r3, #3
 	bl	WM8904_Write
-	.loc 3 183 0
+	.loc 3 182 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #33
 	movs	r3, #0
 	bl	WM8904_Write
-	.loc 3 184 0
+	.loc 3 183 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #61
 	movs	r3, #0
 	bl	WM8904_Write
-	.loc 3 185 0
+	.loc 3 184 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #98
 	movs	r3, #1
 	bl	WM8904_Write
-	.loc 3 186 0
+	.loc 3 185 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #104
 	movs	r3, #1
 	bl	WM8904_Write
-	.loc 3 187 0
+	.loc 3 186 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #116
 	movs	r3, #0
 	bl	WM8904_Write
-	.loc 3 188 0
+	.loc 3 187 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #117
 	movw	r3, #1796
 	bl	WM8904_Write
-	.loc 3 189 0
+	.loc 3 188 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #118
 	mov	r3, #32768
 	bl	WM8904_Write
-	.loc 3 190 0
+	.loc 3 189 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #119
 	mov	r3, #5984
 	bl	WM8904_Write
-	.loc 3 191 0
+	.loc 3 190 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #116
 	movs	r3, #5
 	bl	WM8904_Write
-	.loc 3 193 0
+	.loc 3 192 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #21
 	movw	r3, #3077
 	bl	WM8904_Write
-	.loc 3 194 0
+	.loc 3 193 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #20
 	movs	r3, #0
 	bl	WM8904_Write
-	.loc 3 195 0
+	.loc 3 194 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #22
 	movw	r3, #16390
 	bl	WM8904_Write
-	.loc 3 196 0
+	.loc 3 195 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #25
 	movs	r3, #78
 	bl	WM8904_Write
-	.loc 3 197 0
+	.loc 3 196 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #26
 	movs	r3, #8
 	bl	WM8904_Write
-	.loc 3 198 0
+	.loc 3 197 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #27
 	mov	r3, #2080
 	bl	WM8904_Write
-	.loc 3 199 0
+	.loc 3 198 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #18
 	movs	r3, #15
 	bl	WM8904_Write
-	.loc 3 201 0
+	.loc 3 200 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #44
 	movs	r3, #16
 	bl	WM8904_Write
-	.loc 3 202 0
+	.loc 3 201 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #45
 	movs	r3, #16
 	bl	WM8904_Write
-	.loc 3 203 0
+	.loc 3 202 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #90
 	movs	r3, #17
 	bl	WM8904_Write
-	.loc 3 204 0
+	.loc 3 203 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #90
 	movs	r3, #51
 	bl	WM8904_Write
-	.loc 3 206 0
+	.loc 3 205 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #67
 	movs	r3, #15
 	bl	WM8904_Write
-	.loc 3 208 0
+	.loc 3 207 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #68
 	movs	r3, #240
 	bl	WM8904_Write
-	.loc 3 211 0
+	.loc 3 210 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #90
 	movs	r3, #119
 	bl	WM8904_Write
-	.loc 3 213 0
+	.loc 3 212 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #90
 	movs	r3, #255
 	bl	WM8904_Write
-	.loc 3 215 0
+	.loc 3 214 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #57
 	movs	r3, #185
 	bl	WM8904_Write
-	.loc 3 216 0
+	.loc 3 215 0
 	mov	r3, r7
 	mov	r0, r3
 	movs	r1, #26
 	movs	r2, #58
 	movs	r3, #185
 	bl	WM8904_Write
-	.loc 3 217 0
+	.loc 3 216 0
 	adds	r7, r7, #16
 	.cfi_def_cfa_offset 8
 	mov	sp, r7
@@ -932,7 +935,7 @@ CODEC_Init:
 	.type	I2S_AudioRecord, %function
 I2S_AudioRecord:
 .LFB288:
-	.loc 3 220 0
+	.loc 3 219 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 8
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -944,18 +947,18 @@ I2S_AudioRecord:
 	.cfi_def_cfa_offset 16
 	add	r7, sp, #0
 	.cfi_def_cfa_register 7
-	.loc 3 221 0
+	.loc 3 220 0
 	movs	r3, #0
 	str	r3, [r7, #4]
-	.loc 3 222 0
+	.loc 3 221 0
 	movs	r3, #0
 	str	r3, [r7, #4]
 	b	.L28
 .L31:
-	.loc 3 225 0
+	.loc 3 224 0
 	b	.L29
 .L30:
-	.loc 3 227 0
+	.loc 3 226 0
 	mov	r0, #1073758208
 	bl	SSC_Read
 	mov	r1, r0
@@ -963,22 +966,22 @@ I2S_AudioRecord:
 	ldr	r3, [r7, #4]
 	str	r1, [r2, r3, lsl #2]
 .L29:
-	.loc 3 225 0
+	.loc 3 224 0
 	mov	r0, #1073758208
 	bl	SSC_IsRxReady
 	mov	r3, r0
 	cmp	r3, #0
 	beq	.L30
-	.loc 3 222 0 discriminator 2
+	.loc 3 221 0 discriminator 2
 	ldr	r3, [r7, #4]
 	adds	r3, r3, #1
 	str	r3, [r7, #4]
 .L28:
-	.loc 3 222 0 is_stmt 0 discriminator 1
+	.loc 3 221 0 is_stmt 0 discriminator 1
 	ldr	r3, [r7, #4]
-	cmp	r3, #8192
+	cmp	r3, #2048
 	blt	.L31
-	.loc 3 230 0 is_stmt 1
+	.loc 3 229 0 is_stmt 1
 	adds	r7, r7, #8
 	.cfi_def_cfa_offset 8
 	mov	sp, r7
@@ -999,7 +1002,7 @@ I2S_AudioRecord:
 	.type	uinttofloat, %function
 uinttofloat:
 .LFB289:
-	.loc 3 233 0
+	.loc 3 232 0
 	.cfi_startproc
 	@ args = 0, pretend = 0, frame = 16
 	@ frame_needed = 1, uses_anonymous_args = 0
@@ -1013,15 +1016,15 @@ uinttofloat:
 	.cfi_def_cfa_register 7
 	str	r0, [r7, #4]
 	str	r1, [r7]
-	.loc 3 234 0
+	.loc 3 233 0
 	movs	r3, #0
 	str	r3, [r7, #12]
-	.loc 3 235 0
+	.loc 3 234 0
 	movs	r3, #0
 	str	r3, [r7, #12]
 	b	.L35
 .L40:
-	.loc 3 237 0
+	.loc 3 236 0
 	ldr	r3, [r7, #12]
 	lsls	r3, r3, #2
 	ldr	r2, [r7, #4]
@@ -1036,7 +1039,7 @@ uinttofloat:
 	flds	s14, .L43
 	fdivs	s15, s15, s14
 	fsts	s15, [r3]
-	.loc 3 238 0
+	.loc 3 237 0
 	ldr	r3, [r7, #12]
 	lsls	r3, r3, #2
 	ldr	r2, [r7, #4]
@@ -1046,7 +1049,7 @@ uinttofloat:
 	fcmpes	s15, s14
 	fmstat
 	ble	.L36
-	.loc 3 238 0 is_stmt 0 discriminator 1
+	.loc 3 237 0 is_stmt 0 discriminator 1
 	ldr	r3, [r7, #12]
 	lsls	r3, r3, #2
 	ldr	r2, [r7, #4]
@@ -1054,7 +1057,7 @@ uinttofloat:
 	mov	r2, #1065353216
 	str	r2, [r3]	@ float
 .L36:
-	.loc 3 239 0 is_stmt 1
+	.loc 3 238 0 is_stmt 1
 	ldr	r3, [r7, #12]
 	lsls	r3, r3, #2
 	ldr	r2, [r7, #4]
@@ -1064,7 +1067,7 @@ uinttofloat:
 	fcmpes	s15, s14
 	fmstat
 	bpl	.L38
-	.loc 3 239 0 is_stmt 0 discriminator 1
+	.loc 3 238 0 is_stmt 0 discriminator 1
 	ldr	r3, [r7, #12]
 	lsls	r3, r3, #2
 	ldr	r2, [r7, #4]
@@ -1072,16 +1075,16 @@ uinttofloat:
 	ldr	r2, .L43+4
 	str	r2, [r3]	@ float
 .L38:
-	.loc 3 235 0 is_stmt 1 discriminator 2
+	.loc 3 234 0 is_stmt 1 discriminator 2
 	ldr	r3, [r7, #12]
 	adds	r3, r3, #1
 	str	r3, [r7, #12]
 .L35:
-	.loc 3 235 0 is_stmt 0 discriminator 1
+	.loc 3 234 0 is_stmt 0 discriminator 1
 	ldr	r3, [r7, #12]
-	cmp	r3, #8192
+	cmp	r3, #2048
 	blt	.L40
-	.loc 3 241 0 is_stmt 1
+	.loc 3 240 0 is_stmt 1
 	adds	r7, r7, #20
 	.cfi_def_cfa_offset 4
 	mov	sp, r7
@@ -2778,7 +2781,7 @@ uinttofloat:
 	.uleb128 0x27
 	.4byte	.LASF15010
 	.byte	0x3
-	.byte	0x7b
+	.byte	0x7a
 	.4byte	.LFB284
 	.4byte	.LFE284-.LFB284
 	.uleb128 0x1
@@ -2787,7 +2790,7 @@ uinttofloat:
 	.uleb128 0x28
 	.ascii	"fft\000"
 	.byte	0x3
-	.byte	0x7e
+	.byte	0x7d
 	.4byte	0x8d
 	.uleb128 0x18
 	.byte	0
@@ -2795,7 +2798,7 @@ uinttofloat:
 	.uleb128 0x29
 	.4byte	.LASF15008
 	.byte	0x3
-	.byte	0x84
+	.byte	0x83
 	.4byte	.LFB285
 	.4byte	.LFE285-.LFB285
 	.uleb128 0x1
@@ -2803,7 +2806,7 @@ uinttofloat:
 	.uleb128 0x29
 	.4byte	.LASF15009
 	.byte	0x3
-	.byte	0x90
+	.byte	0x8f
 	.4byte	.LFB286
 	.4byte	.LFE286-.LFB286
 	.uleb128 0x1
@@ -2811,7 +2814,7 @@ uinttofloat:
 	.uleb128 0x27
 	.4byte	.LASF15011
 	.byte	0x3
-	.byte	0x9e
+	.byte	0x9d
 	.4byte	.LFB287
 	.4byte	.LFE287-.LFB287
 	.uleb128 0x1
@@ -2820,7 +2823,7 @@ uinttofloat:
 	.uleb128 0x2a
 	.4byte	.LASF15012
 	.byte	0x3
-	.byte	0xa2
+	.byte	0xa1
 	.4byte	0xc16
 	.uleb128 0x2
 	.byte	0x91
@@ -2828,7 +2831,7 @@ uinttofloat:
 	.uleb128 0x2a
 	.4byte	.LASF15013
 	.byte	0x3
-	.byte	0xa6
+	.byte	0xa5
 	.4byte	0xa6
 	.uleb128 0x2
 	.byte	0x91
@@ -2836,7 +2839,7 @@ uinttofloat:
 	.uleb128 0x2a
 	.4byte	.LASF14989
 	.byte	0x3
-	.byte	0xa8
+	.byte	0xa7
 	.4byte	0xbc
 	.uleb128 0x2
 	.byte	0x91
@@ -2845,7 +2848,7 @@ uinttofloat:
 	.uleb128 0x2b
 	.4byte	.LASF15038
 	.byte	0x3
-	.byte	0xdb
+	.byte	0xda
 	.4byte	.LFB288
 	.4byte	.LFE288-.LFB288
 	.uleb128 0x1
@@ -2854,7 +2857,7 @@ uinttofloat:
 	.uleb128 0x2c
 	.ascii	"i\000"
 	.byte	0x3
-	.byte	0xdd
+	.byte	0xdc
 	.4byte	0x8d
 	.uleb128 0x2
 	.byte	0x91
@@ -2863,7 +2866,7 @@ uinttofloat:
 	.uleb128 0x2d
 	.4byte	.LASF15014
 	.byte	0x3
-	.byte	0xe8
+	.byte	0xe7
 	.4byte	.LFB289
 	.4byte	.LFE289-.LFB289
 	.uleb128 0x1
@@ -2872,7 +2875,7 @@ uinttofloat:
 	.uleb128 0x2e
 	.4byte	.LASF15015
 	.byte	0x3
-	.byte	0xe8
+	.byte	0xe7
 	.4byte	0xec2
 	.uleb128 0x2
 	.byte	0x91
@@ -2880,7 +2883,7 @@ uinttofloat:
 	.uleb128 0x2e
 	.4byte	.LASF15016
 	.byte	0x3
-	.byte	0xe8
+	.byte	0xe7
 	.4byte	0xb93
 	.uleb128 0x2
 	.byte	0x91
@@ -2888,7 +2891,7 @@ uinttofloat:
 	.uleb128 0x2c
 	.ascii	"i\000"
 	.byte	0x3
-	.byte	0xea
+	.byte	0xe9
 	.4byte	0x8d
 	.uleb128 0x2
 	.byte	0x91
@@ -2940,7 +2943,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15022
 	.byte	0x3
-	.byte	0x30
+	.byte	0x2f
 	.4byte	0xf10
 	.uleb128 0x5
 	.byte	0x3
@@ -2955,7 +2958,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15023
 	.byte	0x3
-	.byte	0x31
+	.byte	0x30
 	.4byte	0xf31
 	.uleb128 0x5
 	.byte	0x3
@@ -2970,7 +2973,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15024
 	.byte	0x3
-	.byte	0x32
+	.byte	0x31
 	.4byte	0xf52
 	.uleb128 0x5
 	.byte	0x3
@@ -2980,12 +2983,12 @@ uinttofloat:
 	.4byte	0xf84
 	.uleb128 0x31
 	.4byte	0xc9
-	.2byte	0x1fff
+	.2byte	0x7ff
 	.byte	0
 	.uleb128 0x30
 	.4byte	.LASF15025
 	.byte	0x3
-	.byte	0x35
+	.byte	0x34
 	.4byte	0xf73
 	.uleb128 0x5
 	.byte	0x3
@@ -2995,12 +2998,12 @@ uinttofloat:
 	.4byte	0xfa6
 	.uleb128 0x31
 	.4byte	0xc9
-	.2byte	0xfff
+	.2byte	0x3ff
 	.byte	0
 	.uleb128 0x30
 	.4byte	.LASF15026
 	.byte	0x3
-	.byte	0x37
+	.byte	0x36
 	.4byte	0xf95
 	.uleb128 0x5
 	.byte	0x3
@@ -3008,7 +3011,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15027
 	.byte	0x3
-	.byte	0x39
+	.byte	0x38
 	.4byte	0xbc
 	.uleb128 0x5
 	.byte	0x3
@@ -3016,7 +3019,7 @@ uinttofloat:
 	.uleb128 0x30
 	.4byte	.LASF15028
 	.byte	0x3
-	.byte	0x3b
+	.byte	0x3a
 	.4byte	0xec8
 	.uleb128 0x5
 	.byte	0x3
@@ -3026,12 +3029,12 @@ uinttofloat:
 	.4byte	0xfea
 	.uleb128 0x31
 	.4byte	0xc9
-	.2byte	0x1fff
+	.2byte	0x7ff
 	.byte	0
 	.uleb128 0x30
 	.4byte	.LASF15029
 	.byte	0x3
-	.byte	0x3d
+	.byte	0x3c
 	.4byte	0xfd9
 	.uleb128 0x5
 	.byte	0x3
@@ -6600,38 +6603,38 @@ uinttofloat:
 	.byte	0x4
 	.file 222 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\bsp\\libboard_samv7-ek\\include/wm8904.h"
 	.byte	0x3
-	.uleb128 0x1f
+	.uleb128 0x1b
 	.uleb128 0xde
 	.byte	0x4
 	.byte	0x5
-	.uleb128 0x22
+	.uleb128 0x21
 	.4byte	.LASF14794
 	.byte	0x5
-	.uleb128 0x23
+	.uleb128 0x22
 	.4byte	.LASF14795
 	.byte	0x5
-	.uleb128 0x24
+	.uleb128 0x23
 	.4byte	.LASF14796
 	.byte	0x5
-	.uleb128 0x26
+	.uleb128 0x25
 	.4byte	.LASF14797
 	.byte	0x5
-	.uleb128 0x27
+	.uleb128 0x26
 	.4byte	.LASF14798
 	.byte	0x5
-	.uleb128 0x28
+	.uleb128 0x27
 	.4byte	.LASF14799
 	.byte	0x5
-	.uleb128 0x2a
+	.uleb128 0x29
 	.4byte	.LASF14800
 	.byte	0x5
-	.uleb128 0x2b
+	.uleb128 0x2a
 	.4byte	.LASF14801
 	.byte	0x5
-	.uleb128 0x2c
+	.uleb128 0x2b
 	.4byte	.LASF14802
 	.byte	0x5
-	.uleb128 0x2d
+	.uleb128 0x2c
 	.4byte	.LASF14803
 	.byte	0x4
 	.byte	0
@@ -61786,6 +61789,8 @@ uinttofloat:
 	.ascii	"os)\000"
 .LASF14915:
 	.ascii	"Reserved9\000"
+.LASF14798:
+	.ascii	"BUFF_SIZE (2048)\000"
 .LASF1525:
 	.ascii	"AFEC_CGR_GAIN9(value) ((AFEC_CGR_GAIN9_Msk & ((valu"
 	.ascii	"e) << AFEC_CGR_GAIN9_Pos)))\000"
@@ -69694,8 +69699,6 @@ uinttofloat:
 	.ascii	"FPU_FPCCR_MONRDY_Msk (1UL << FPU_FPCCR_MONRDY_Pos)\000"
 .LASF8867:
 	.ascii	"USBHS_HSTIDR_PEP_2 (0x1u << 10)\000"
-.LASF14798:
-	.ascii	"BUFF_SIZE (8192)\000"
 .LASF423:
 	.ascii	"__int_fast16_t_defined 1\000"
 .LASF2319:

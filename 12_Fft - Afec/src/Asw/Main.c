@@ -23,12 +23,11 @@
 #include    "Button_Ctrl.h"
 /** Floating Point Unit */
 #include    "Fpu.h"
-/**I2C Controller*/
-//#include    "twi.h"
-/**I2S Controller*/
-//#include    "ssc.h"
 /**Codec Driver*/
 #include    "wm8904.h"
+/***/
+#include <stdio.h>
+
 
 /*~~~~~~  Local definitions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 #define MASTERCLOCK   	(150000000)
@@ -36,7 +35,7 @@
 #define I2S_BITRATE   	(8000 * 32)
 
 #define SAMP_PER      	(50)
-#define BUFF_SIZE     	(8192) //1 second sample
+#define BUFF_SIZE     	(2048) 
 #define FFT_SIZE		(1024)
 
 #define SSC_RCMR_CONFIG	(SSC_RCMR_CKS_MCK | SSC_RCMR_CKO_NONE | SSC_RCMR_CKG_CONTINUOUS | SSC_RCMR_START_RF_EDGE | SSC_RCMR_STTDLY(1) | SSC_RCMR_PERIOD(0))
@@ -59,6 +58,7 @@ uint32_t    u32fft_maxPowerIndex;
 float       fft_maxPower;
 
 uint32_t ssc_inputData[BUFF_SIZE];
+
 
 /*~~~~~~  Local functions ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
 
@@ -101,18 +101,17 @@ extern int main( void )
 	printf( "\n\r-- Scheduler Project %s --\n\r", SOFTPACK_VERSION ) ;
 	printf( "-- %s\n\r", BOARD_NAME ) ;
 	printf( "-- Compiled: %s %s With %s --\n\r", __DATE__, __TIME__ , COMPILER_NAME);
-
+  
 	I2S_Init();
 	I2S_AudioRecord();
 	uinttofloat(fft_inputData, ssc_inputData);
 
   /* Scheduler Inititalization */
-  printf( "-- Scheduler Initialization --\n\r" ) ;
+ 	 printf( "-- Scheduler Initialization --\n\r" ) ;
 	//SchM_Init(ScheduleConfig);
 
 	//FFT
-	fft_process();
-	
+	pFFT();
 	/* Should never reach this code */
 	for(;;)
     {

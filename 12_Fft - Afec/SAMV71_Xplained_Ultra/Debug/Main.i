@@ -28028,12 +28028,11 @@ extern void ButtonCtrl_ConfigureSW0Button( void );
 void Fpu_Enable(void);
 # 26 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\app\\12_Fft - Afec\\src\\Asw\\Main.c" 2
 
-
-
-
-
 # 1 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\bsp\\libboard_samv7-ek\\include/wm8904.h" 1
-# 32 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\app\\12_Fft - Afec\\src\\Asw\\Main.c" 2
+# 28 "C:\\Samv7_02\\SAMV7x\\SAMV71x\\app\\12_Fft - Afec\\src\\Asw\\Main.c" 2
+
+
+
 
 
 #define MASTERCLOCK (150000000)
@@ -28041,7 +28040,7 @@ void Fpu_Enable(void);
 #define I2S_BITRATE (8000 * 32)
 
 #define SAMP_PER (50)
-#define BUFF_SIZE (8192)
+#define BUFF_SIZE (2048)
 #define FFT_SIZE (1024)
 
 #define SSC_RCMR_CONFIG (SSC_RCMR_CKS_MCK | SSC_RCMR_CKO_NONE | SSC_RCMR_CKG_CONTINUOUS | SSC_RCMR_START_RF_EDGE | SSC_RCMR_STTDLY(1) | SSC_RCMR_PERIOD(0))
@@ -28055,15 +28054,16 @@ Pin PCK2_Pins[] = {(1u << 18), ((Pio *)0x400E0E00U), (10), 1, (0 << 0)};
 Pin TWI0_Pins[] = {{(1u << 3), ((Pio *)0x400E0E00U), (10), 0, (0 << 0)}, {(1u << 4), ((Pio *)0x400E0E00U), (10), 0, (0 << 0)}};
 
 
-float fft_inputData[(8192)];
+float fft_inputData[(2048)];
 
-float fft_signalPower[(8192)/2];
+float fft_signalPower[(2048)/2];
 
 uint32_t u32fft_maxPowerIndex;
 
 float fft_maxPower;
 
-uint32_t ssc_inputData[(8192)];
+uint32_t ssc_inputData[(2048)];
+
 
 
 
@@ -28097,19 +28097,18 @@ extern int main( void )
 
  printf( "\n\r-- Scheduler Project %s --\n\r", "1.3" ) ;
  printf( "-- %s\n\r", "SAM V71 Xplained Ultra" ) ;
- printf( "-- Compiled: %s %s With %s --\n\r", "Dec  1 2023", "22:19:21" , "GCC");
+ printf( "-- Compiled: %s %s With %s --\n\r", "Dec  2 2023", "02:33:10" , "GCC");
 
  I2S_Init();
  I2S_AudioRecord();
  uinttofloat(fft_inputData, ssc_inputData);
 
 
-  printf( "-- Scheduler Initialization --\n\r" ) ;
+   printf( "-- Scheduler Initialization --\n\r" ) ;
 
 
 
- fft_process();
-
+ pFFT();
 
  for(;;)
     {
@@ -28120,7 +28119,7 @@ extern int main( void )
 void fft_process(void)
 {
 
-  fft(fft_inputData, fft_signalPower, (8192)/2, &u32fft_maxPowerIndex, &fft_maxPower);
+  fft(fft_inputData, fft_signalPower, (2048)/2, &u32fft_maxPowerIndex, &fft_maxPower);
 
 
   printf("%5d  %5.4f \r\n", u32fft_maxPowerIndex, fft_maxPower);
@@ -28216,7 +28215,7 @@ void CODEC_Init(void)
 void I2S_AudioRecord()
 {
  int i = 0;
- for( i = 0; i < (8192); i++ )
+ for( i = 0; i < (2048); i++ )
  {
 
   while(!SSC_IsRxReady(((Ssc *)0x40004000U)))
@@ -28229,7 +28228,7 @@ void I2S_AudioRecord()
 void uinttofloat(float * floatbuffer, uint32_t * sscdata)
 {
  int i = 0;
- for( i = 0; i < (8192); i++ )
+ for( i = 0; i < (2048); i++ )
  {
   floatbuffer[i] = ((float)sscdata[i]) / (float) 32768;
   if( floatbuffer[i] > 1 ) floatbuffer[i] = 1.0;
