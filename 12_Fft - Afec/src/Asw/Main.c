@@ -220,10 +220,9 @@ void I2S_AudioRecord()
 	int i = 0;
 	for( i = 0; i < BUFF_SIZE; i++ )
 	{
-		//ssc_inputData[i] = SSC_Read(SSC);
+		ssc_inputData[i] = SSC_Read(SSC);
 		while(!SSC_IsRxReady(SSC)) //waits until frame is received
 		{
-			ssc_inputData[i] = SSC_Read(SSC);
 		}
 	}
 }
