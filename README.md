@@ -207,8 +207,6 @@ This project is a solid foundation for real-time audio DSP on embedded systems. 
 - 🔌 Port to another codec or MCU family (STM32, NXP i.MX RT)
 - 🧪 Add automated test signals using the DAC output for loopback testing
 
-> **Not sure where to start?** Open an [Issue](https://github.com/OmarAnguiano26/Embebidos_06FFT/issues) and we'll guide you.
-
 [![Fork this repo](https://img.shields.io/badge/Fork%20this%20repo-%F0%9F%8D%B4%20Contribute-blue?style=for-the-badge)](https://github.com/OmarAnguiano26/Embebidos_06FFT/fork)
 
 ---
@@ -225,4 +223,4 @@ This project is a solid foundation for real-time audio DSP on embedded systems. 
 
 ## 📄 License
 
-This project is for academic purposes. See [LICENSE](LICENSE) for details.
+This project is for academic purposes. 
